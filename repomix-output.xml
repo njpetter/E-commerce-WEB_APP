@@ -1,0 +1,5668 @@
+This file is a merged representation of the entire codebase, combined into a single document by Repomix.
+
+<file_summary>
+This section contains a summary of this file.
+
+<purpose>
+This file contains a packed representation of the entire repository's contents.
+It is designed to be easily consumable by AI systems for analysis, code review,
+or other automated processes.
+</purpose>
+
+<file_format>
+The content is organized as follows:
+1. This summary section
+2. Repository information
+3. Directory structure
+4. Repository files (if enabled)
+5. Multiple file entries, each consisting of:
+  - File path as an attribute
+  - Full contents of the file
+</file_format>
+
+<usage_guidelines>
+- This file should be treated as read-only. Any changes should be made to the
+  original repository files, not this packed version.
+- When processing this file, use the file path to distinguish
+  between different files in the repository.
+- Be aware that this file may contain sensitive information. Handle it with
+  the same level of security as you would the original repository.
+</usage_guidelines>
+
+<notes>
+- Some files may have been excluded based on .gitignore rules and Repomix's configuration
+- Binary files are not included in this packed representation. Please refer to the Repository Structure section for a complete list of file paths, including binary files
+- Files matching patterns in .gitignore are excluded
+- Files matching default ignore patterns are excluded
+- Files are sorted by Git change count (files with more changes are at the bottom)
+</notes>
+
+</file_summary>
+
+<directory_structure>
+.gitignore
+change.py
+client/.gitignore
+client/package.json
+client/public/favicon.ico
+client/public/images/amazon-fulfilled.png
+client/public/images/banner1.jpg
+client/public/images/banner2.jpg
+client/public/images/banner3.jpg
+client/public/images/banner4.jpg
+client/public/images/banner5.jpg
+client/public/images/category-1-a.jpg
+client/public/images/category-1-b.jpg
+client/public/images/category-1-c.jpg
+client/public/images/category-1-d.jpg
+client/public/images/category-2.jpg
+client/public/images/category-3.jpg
+client/public/images/category-4.jpg
+client/public/images/category-5.jpg
+client/public/images/category-6.jpg
+client/public/images/category-7-a.jpg
+client/public/images/category-7-b.jpg
+client/public/images/category-7-c.jpg
+client/public/images/category-7-d.jpg
+client/public/images/category-8.jpg
+client/public/images/d.jpg
+client/public/images/logo-dark.png
+client/public/images/logo.png
+client/public/images/products/1.jpg
+client/public/images/products/10.jpg
+client/public/images/products/10res.jpg
+client/public/images/products/11.jpg
+client/public/images/products/11res.jpg
+client/public/images/products/12.jpg
+client/public/images/products/12res.jpg
+client/public/images/products/13.jpg
+client/public/images/products/13res.jpg
+client/public/images/products/14.jpg
+client/public/images/products/14res.jpg
+client/public/images/products/15.jpg
+client/public/images/products/15res.jpg
+client/public/images/products/16.jpg
+client/public/images/products/16res.jpg
+client/public/images/products/17.jpg
+client/public/images/products/17res.jpg
+client/public/images/products/18.jpg
+client/public/images/products/18res.jpg
+client/public/images/products/19.jpg
+client/public/images/products/19res.jpg
+client/public/images/products/1res.jpg
+client/public/images/products/2.jpg
+client/public/images/products/20.jpg
+client/public/images/products/20res.jpg
+client/public/images/products/21.jpg
+client/public/images/products/21res.jpg
+client/public/images/products/22.jpg
+client/public/images/products/22res.jpg
+client/public/images/products/2res.jpg
+client/public/images/products/3.jpg
+client/public/images/products/3res.jpg
+client/public/images/products/4.jpg
+client/public/images/products/4res.jpg
+client/public/images/products/5.jpg
+client/public/images/products/5res.jpg
+client/public/images/products/6.jpg
+client/public/images/products/6res.jpg
+client/public/images/products/7.jpg
+client/public/images/products/7res.jpg
+client/public/images/products/8.jpg
+client/public/images/products/8res.jpg
+client/public/images/products/9.jpg
+client/public/images/products/9res.jpg
+client/public/images/subnav.jpg
+client/public/index.html
+client/README.md
+client/src/App.js
+client/src/components/cart/cart.css
+client/src/components/cart/Cart.jsx
+client/src/components/cart/CartProduct.jsx
+client/src/components/cart/SubTotal.jsx
+client/src/components/footer/BottomFooter.jsx
+client/src/components/footer/footer.css
+client/src/components/footer/Footer.jsx
+client/src/components/footer/logo.png
+client/src/components/footer/MiddleFooter.jsx
+client/src/components/footer/SignIn.jsx
+client/src/components/footer/TopFooter.jsx
+client/src/components/header/logo.png
+client/src/components/header/Navbar.css
+client/src/components/header/Navbar.jsx
+client/src/components/header/subnav.jpg
+client/src/components/header/SubNavbar.jsx
+client/src/components/home/Banner.jsx
+client/src/components/home/Card.jsx
+client/src/components/home/CategoryCards.jsx
+client/src/components/home/home.css
+client/src/components/home/Home.jsx
+client/src/components/home/MultiCard.jsx
+client/src/components/home/products.js
+client/src/components/home/Slider.jsx
+client/src/components/loader/loader.css
+client/src/components/loader/Loader.jsx
+client/src/components/login-register/CountryCode.jsx
+client/src/components/login-register/login-register.css
+client/src/components/login-register/SignIn.jsx
+client/src/components/login-register/SignUp.jsx
+client/src/components/product/product.css
+client/src/components/product/Product.jsx
+client/src/components/profile/NameBanner.jsx
+client/src/components/profile/OrderedProduct.jsx
+client/src/components/profile/Orders.jsx
+client/src/components/profile/OrderTop.jsx
+client/src/components/profile/profile.css
+client/src/components/profile/Profile.jsx
+client/src/components/profile/UserDetails.jsx
+client/src/index.css
+client/src/index.js
+constant/productsData.js
+database/connection.js
+defaultData.js
+index.js
+middleware/authenticate.js
+models/Product.js
+models/User.js
+package.json
+README.md
+routes/router.js
+</directory_structure>
+
+<files>
+This section contains the contents of the repository's files.
+
+<file path=".gitignore">
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+</file>
+
+<file path="change.py">
+import os
+
+# Configuration
+SEARCH_TEXT = "https://amazonclone-sp.herokuapp.com"
+REPLACE_TEXT = "http://localhost:8000"
+TARGET_DIR = os.path.join(os.getcwd(), "client", "src")
+
+def fix_urls():
+    print(f"Searching for Heroku URLs in: {TARGET_DIR}")
+    count = 0
+
+    # Walk through the client/src directory
+    for root, dirs, files in os.walk(TARGET_DIR):
+        for file in files:
+            # Check for relevant file types
+            if file.endswith((".jsx", ".js", ".css")):
+                file_path = os.path.join(root, file)
+                
+                try:
+                    with open(file_path, "r", encoding="utf-8") as f:
+                        content = f.read()
+
+                    if SEARCH_TEXT in content:
+                        new_content = content.replace(SEARCH_TEXT, REPLACE_TEXT)
+                        with open(file_path, "w", encoding="utf-8") as f:
+                            f.write(new_content)
+                        # Removed emoji to prevent UnicodeEncodeError
+                        print(f"SUCCESS - Updated: {file}")
+                        count += 1
+                except Exception as e:
+                    print(f"Error processing {file}: {e}")
+
+    if count == 0:
+        print("No Heroku URLs found. They may have already been updated!")
+    else:
+        print(f"\nSuccessfully updated {count} files.")
+        print("You can now restart your React app.")
+
+if __name__ == "__main__":
+    fix_urls()
+</file>
+
+<file path="client/.gitignore">
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+</file>
+
+<file path="client/package.json">
+{
+  "name": "client",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@mui/icons-material": "^5.6.2",
+    "@mui/material": "^5.6.2",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.1.1",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.27.2",
+    "bootstrap": "^5.1.3",
+    "jquery": "^3.6.0",
+    "react": "^18.0.0",
+    "react-bootstrap": "^2.3.0",
+    "react-dom": "^18.0.0",
+    "react-material-ui-carousel": "^3.3.3",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "swiper": "^8.1.4",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
+</file>
+
+<file path="client/public/index.html">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="./favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="description" content="Free shipping on millions of items. Get the best of Shopping and Entertainment with Prime. Enjoy low prices and great deals on the largest selection of everyday essentials and other products, including fashion, home, beauty, electronics, Alexa Devices, sporting goods, toys, automotive, pets, baby, books, video games, musical instruments, office supplies, and more.">
+    <meta name="keywords" content="Amazon, Amazon.com, Books, Online Shopping, Book Store, Magazine, Subscription, Music, CDs, DVDs, Videos, Electronics, Video Games, Computers, Cell Phones, Toys, Games, Apparel, Accessories, Shoes, Jewelry, Watches, Office Products, Sports &amp; Outdoors, Sporting Goods, Baby Products, Health, Personal Care, Beauty, Home, Garden, Bed &amp; Bath, Furniture, Tools, Hardware, Vacuums, Outdoor Living, Automotive Parts, Pet Supplies, Broadband, DSL">
+    <title>Amazon.com. Spend less. Smile more.</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
+</file>
+
+<file path="client/README.md">
+# Getting Started with Create React App
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+</file>
+
+<file path="client/src/App.js">
+import Navbar from './components/header/Navbar'
+import Home from './components/home/Home';
+import Footer from './components/footer/Footer';
+import { Routes, Route } from 'react-router-dom';
+import SignUp from './components/login-register/SignUp';
+import SignIn from './components/login-register/SignIn';
+import Product from './components/product/Product';
+import Cart from './components/cart/Cart';
+import Profile from './components/profile/Profile';
+import Orders from './components/profile/Orders';
+
+function App() {
+  return (
+    <div className="App">
+      <Routes>
+        <Route path='/' element={ <> <Navbar /> <Home /> <Footer /> </> } />
+        <Route path='/login' element={ <SignIn /> } />
+        <Route path='/register' element={ <SignUp /> } />
+        <Route path='/product/:id' element={ <> <Navbar /> <Product /> <Footer /> </> } />
+        <Route path='/cart' element={ <> <Navbar /> <Cart /> <Footer /> </> } />
+        <Route path='/profile' element={ <> <Navbar /> <Profile /> <Footer /> </> } />
+        <Route path='/orders' element={ <> <Navbar /> <Orders /> <Footer /> </> } />
+      </Routes>
+    </div>
+  );
+}
+
+export default App;
+</file>
+
+<file path="client/src/components/cart/cart.css">
+.cart-section {
+  background-color: #EAEDED !important;
+  display: flex;
+  padding: 20px 8px 10px 8px;
+}
+.cart-section .left {
+  width: 100%;
+  background-color: #fff;
+  margin: 10px;
+  padding: 20px;
+}
+.cart-section .right {
+  width: 400px;
+  background-color: #fff;
+  margin: 10px;
+  padding: 20px 20px 30px 20px;
+}
+.cart-section .left h3 {
+  margin-bottom: -5px;
+}
+.cart-section .left .price-heading {
+  font-size: 14px;
+  color: #565959;
+  width: 100%;
+  margin-bottom: 0;
+  border-bottom: 1px solid #ddd;
+  text-align: right;
+}
+.cart-section .left .cart-product {
+  display: flex;
+  padding: 12px 0;
+  border-bottom: 1px solid #ddd;
+}
+.cart-section .left .cart-product .product-left {
+  padding-left: 20px;
+  display: flex;
+  width: 100%;
+}
+.cart-section .left .cart-product .product-left .product-img-wrapper {
+  width: 160px;
+}
+.cart-section .left .cart-product .product-left .product-img {
+  width: 160px;
+}
+.cart-section .left .cart-product .product-left .product-details {
+  padding-left: 30px;
+  justify-items: flex-start;
+}
+.cart-section .left .cart-product .product-left .product-details a {
+  color: #111;
+  text-decoration: none;
+}
+.cart-section .left .cart-product .product-left .product-details h5 {
+  font-size: 18px;
+}
+.cart-section .left .cart-product .product-left .product-details p {
+  font-size: 12px;
+  margin-bottom: 3px;
+}
+.cart-section .left .cart-product .product-left .product-details p.in-stock {
+  color: #007600
+}
+.cart-section .left .cart-product .product-left .product-details p.shipping {
+  color: #565959;
+  margin-bottom: 0px;
+}
+.cart-section .left .cart-product .product-left .product-details img {
+  margin-bottom: 5px
+}
+.cart-section .left .cart-product .product-left .product-details .product-options {
+  display: flex;
+  align-items: center;
+}
+.cart-section .left .cart-product .product-left .product-details .product-options .quantity {
+  font-size: 13px;
+  color: #222;
+}
+.cart-section .left .cart-product .product-left .product-details .product-options .quantity span {
+  width: 25px;
+  text-align: center;
+}
+.cart-section .left .cart-product .product-left .product-details .product-options select:focus {
+  outline: none;
+}
+.cart-section .left .cart-product .product-left .product-details .product-options div {
+  margin: 5px 0 5px 10px;
+  padding-left: 10px;
+  border-left: 1px solid #ddd;
+  color: #007185;
+  font-size: 12px;
+  cursor: pointer;
+}
+.cart-section .left .cart-product .product-left .product-details .product-options div:hover {
+  text-decoration: underline;
+}
+.cart-section .left .cart-product .product-right {
+  width: 150px;
+  text-align: right;
+}
+.cart-section .left .cart-product .product-right h5 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.cart-section .subtotal h5 {
+  font-size: 18px;
+  margin-top: 5px;
+}
+.cart-section .subtotal h5 span {
+  font-weight: 600;
+}
+.cart-section .left .subtotal h5 {
+  text-align: right;
+}
+
+.cart-section .right {
+  height: 100%;
+}
+.cart-section .right button {
+  width: 100%;
+  margin: 4px 0;
+  border: none;
+  font-size: 13px;
+  background-color: #FFD814;
+  height: 32px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px #ddd;
+  cursor: pointer;
+}
+.cart-section .right button:hover {
+  background-color: #F7CA00;
+}
+
+@media screen and (max-width: 1050px) {
+  .cart-section {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .cart-section .right {
+    width: 100%;
+    padding: 20px 30% 30px 30%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .cart-section .left .cart-product .product-left .product-img-wrapper {
+    width: 120px;
+  }
+  .cart-section .left .cart-product .product-left .product-img {
+    width: 120px;
+  }
+  .cart-section .left .cart-product .product-left .product-details .product-options {
+    flex-direction: column;
+  }
+  .cart-section .left .cart-product .product-left .product-details .product-options select {
+    width: 50px;
+  }
+  .cart-section .left .cart-product .product-left .product-details .product-options div {
+    width: 50%;
+    margin: 3px 0 0px 0;
+    padding-top: 3px;
+    padding-left: 0px;
+    border-left: 0;
+    border-top: 1px solid #ddd;
+  }
+}
+@media screen and (max-width: 576px) {
+  .cart-section .left .cart-product .product-left .product-img-wrapper {
+    width: 100px;
+  }
+  .cart-section .left .cart-product .product-left .product-img {
+    width: 100px;
+  }
+  .cart-section .left .cart-product .product-left .product-details h5 {
+    font-size: 14px;
+  }
+  .cart-section .left .cart-product .product-left .product-details .product-options .save, .cart-section .left .cart-product .product-left .product-details .product-options .more {
+    display: none;
+  }
+  .cart-section .left .cart-product {
+    flex-direction: column;
+  }
+  .cart-section .left .cart-product .product-right {
+    padding-left: 20px;
+    text-align: left;
+  }
+  .cart-section .right {
+    width: 100%;
+    padding: 20px 10% 30px 10%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .cart-section .left .cart-product .product-left .product-img-wrapper {
+    width: 80px;
+  }
+  .cart-section .left .cart-product .product-left .product-img {
+    width: 80px;
+  }
+}
+</file>
+
+<file path="client/src/components/cart/Cart.jsx">
+import React, { useEffect, useState } from 'react';
+import Loader from '../loader/Loader';
+import axios from 'axios';
+import { useNavigate } from 'react-router-dom';
+import Alert from '@mui/material/Alert';
+import './cart.css';
+import CartProduct from './CartProduct';
+import SubTotal from './SubTotal';
+
+const Cart = () => {
+
+  // Loader
+  const [isLoading, setIsLoading] = useState(true);
+
+  const [cartArr, setCartArr] = useState([]);
+  const [userData, setUserData] = useState();
+
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    axios.get('http://localhost:8000/api/getAuthUser', {withCredentials: true})
+        .then(function(res) {
+          setUserData(res.data);
+          setCartArr(res.data.cart);
+          setIsLoading(false);
+        })
+        .catch(function(error) {
+          if (error.response.data.message == "No token provided") {
+            navigate('/login');
+          } else {
+            console.log(error);
+          }
+        });
+  }, [])
+
+  // Creating an array of products ordered
+  const orderedProducts = [];
+
+  for (let i = 0; i < cartArr.length; i++) {
+    let product = {
+      id: cartArr[i].cartItem.id,
+      name: cartArr[i].cartItem.name,
+      qty: cartArr[i].qty,
+      img: cartArr[i].cartItem.url
+    }
+    orderedProducts.push(product);
+  }
+
+
+  let orderAmount = 0;
+  for (let i = 0; i < cartArr.length; i++) {
+    orderAmount += cartArr[i].qty * cartArr[i].cartItem.accValue;
+  }
+
+  function loadRazorpay() {
+    const script = document.createElement("script");
+    script.src="https://checkout.razorpay.com/v1/checkout.js";
+
+    script.onerror = () => {
+      alert("Razorpay SDK failed to load. Try again later");
+    };
+    script.onload = async () => {
+      try {
+        const res = await axios.post("http://localhost:8000/api/create-order", {
+          amount: orderAmount + '00'
+        }, {
+          withCredentials: true
+        })
+        
+        const { id, amount, currency } = res.data.order;
+        const { key } = await axios.get("http://localhost:8000/api/get-razorpay-key");
+
+        var today = new Date();
+        var date = today.getDate()+'/'+(today.getMonth()+1)+'/'+today.getFullYear();
+
+        const options = {
+          key: key,
+          amount: amount.toString(),
+          currency: currency,
+          order_id: id,
+          name: "Payment",
+          handler: async function(response) {
+            const result = await axios.post("http://localhost:8000/api/pay-order", {
+              orderedProducts: orderedProducts,
+              dateOrdered: date,
+              amount: amount,
+              razorpayPaymentId: response.razorpay_payment_id,
+              razorpayOrderId: response.razorpay_order_id,
+              razorpaySignature: response.razorpay_signature
+            }, {
+              withCredentials: true
+            })
+            navigate("/orders");
+          },
+          prefill: {
+            name: userData.name,
+            email: userData.email,
+            contact: '+91' + userData.number
+          },
+          theme: {
+            color: '#1976D2'
+          }
+        };
+
+        const paymentObject = new window.Razorpay(options);
+        paymentObject.open();
+
+        
+
+      } catch (error) {
+        console.log(error);
+      }
+    };
+
+    document.body.appendChild(script);
+  }
+
+  if (cartArr[cartArr.length-1]) {
+
+    let totalQty = 0;
+
+    for (let i = 0; i < cartArr.length; i++) {
+      totalQty += cartArr[i].qty;
+    }
+
+    let amount = orderAmount.toString();  
+    let lastThree = amount.substring(amount.length-3);
+    let otherNumbers = amount.substring(0,amount.length-3);
+    if(otherNumbers != '')
+      lastThree = ',' + lastThree;
+    amount = otherNumbers.replace(/\B(?=(\d{2})+(?!\d))/g, ",") + lastThree;
+
+    return (
+      <>
+        { isLoading ? 
+          <Loader /> :
+          <div className='cart-section'>
+          <div className='left'>
+            <h3>Shopping Cart</h3>
+            <p className='price-heading'>Price</p>
+            {
+              cartArr.map(function(cart, index) {
+                return <CartProduct key={index} cartItem={cart.cartItem} qty={cart.qty} />
+              })
+            }
+            <SubTotal totalQty={totalQty} subTotal={amount} />
+          </div>
+          <div className="right">
+            <SubTotal totalQty={totalQty} subTotal={amount} />
+            <button onClick={loadRazorpay} >Proceed to Buy</button>
+          </div>
+        </div>
+        }
+      </>
+    )
+  } else if (cartArr.length == 0) {
+    return (
+      <>
+        {
+          isLoading ?
+          <Loader /> :
+          <Alert variant="outlined" severity="warning" style={{ width: '80%', margin: '30px auto', fontSize: '16px', display: 'flex', justifyContent: 'center' }}>
+            Cart is empty
+          </Alert>
+        }
+      </>
+    )
+  }
+}
+
+export default Cart;
+</file>
+
+<file path="client/src/components/cart/CartProduct.jsx">
+import React, { useEffect, useState } from 'react';
+import axios from 'axios';
+import { NavLink, useNavigate } from 'react-router-dom';
+import './cart.css';
+
+const CartProduct = (props) => {
+
+    const product = props.cartItem;
+    const path = '/product/' + product.id;
+
+    const qty = props.qty;
+
+    const navigate = useNavigate();
+
+    async function deleteFromCart() {
+      try {
+        const res = await axios.delete("http://localhost:8000/api/delete/" + product.id, {
+          withCredentials: true
+        })
+        if (res.data.message == "Item deleted successfully") {
+          window.location.reload(false);
+        }
+      } catch (error) {
+        if (error.response.data.message == "No token provided") {
+          navigate('/login');
+        } else {
+          console.log(error);
+        }
+      }
+    }
+
+    let amount = (product.accValue * qty).toString();  
+    let lastThree = amount.substring(amount.length-3);
+    let otherNumbers = amount.substring(0,amount.length-3);
+    if(otherNumbers != '')
+      lastThree = ',' + lastThree;
+    amount = otherNumbers.replace(/\B(?=(\d{2})+(?!\d))/g, ",") + lastThree;
+
+    return (
+      <div className='cart-product'>
+        <div className='product-left'>
+          <div className='product-img-wrapper'>
+            <img className='product-img' src={ product.url } />
+          </div>
+          <div className='product-details'>
+            <NavLink to={path}>
+              <h5 className='name'>{ product.name }</h5>
+            </NavLink>
+            <p className='in-stock'>In stock</p>
+            <p className='shipping'>Eligible for FREE Shipping</p>
+            <img src='images/amazon-fulfilled.png' />
+            <div className='product-options' id="product-options">
+              <section className='quantity'>
+                Qty: { qty }
+              </section>
+              <div className='delete' onClick={deleteFromCart}>
+                Delete
+              </div>
+              <div className='save'>
+                Save for later
+              </div>
+              <div className='more'>
+                See more like this
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className='product-right'>
+          <h5>₹{ amount }.00</h5>
+        </div>
+      </div>
+    )
+  
+}
+
+export default CartProduct;
+</file>
+
+<file path="client/src/components/cart/SubTotal.jsx">
+import React from 'react';
+import './cart.css';
+
+const SubTotal = (props) => {
+  return (
+    <div className='subtotal'>
+      <h5>Subtotal ({props.totalQty} items): <span>₹{props.subTotal}.00</span></h5>
+    </div>
+  )
+}
+
+export default SubTotal;
+</file>
+
+<file path="client/src/components/footer/BottomFooter.jsx">
+import React from 'react';
+
+const BottomFooter = () => {
+
+  const today = new Date();
+  const year = today.getFullYear();
+
+  return (
+    <div className='bottom-footer'>
+      <div className='container'>
+        <div className='row'>
+          <div className='col-xl-2 col-md-4 col-6'>
+            <a href="https://www.abebooks.com/">
+              <div className='title'>
+                AbeBooks
+              </div>
+              <div className='desc'>
+                Books, art<br></br>
+                & collectibles
+              </div>
+            </a>
+          </div>
+          <div className='col-xl-2 col-md-4 col-6'>
+            <a href="https://aws.amazon.com/what-is-cloud-computing/?sc_channel=EL&sc_campaign=IN_amazonfooter">
+              <div className='title'>
+                Amazon Web Services
+              </div>
+              <div className='desc'>
+                Scalable Cloud<br></br>
+                Computing Services
+              </div>
+            </a>
+          </div>
+          <div className='col-xl-2 col-md-4 col-6'>
+            <a href="https://www.audible.in/">
+              <div className='title'>
+                Audible
+              </div>
+              <div className='desc'>
+                Download<br></br>
+                Audio Books
+              </div>
+            </a>
+          </div>
+          <div className='col-xl-2 col-md-4 col-6'>
+            <a href="https://www.dpreview.com/">
+              <div className='title'>
+                DPReview
+              </div>
+              <div className='desc'>
+                Digital<br></br>
+                Photography
+              </div>
+            </a>
+          </div>
+          <div className='col-xl-2 col-md-4 col-6'>
+            <a href="https://www.imdb.com/">
+              <div className='title'>
+                IMDb
+              </div>
+              <div className='desc'>
+                Movies, TV<br></br>
+                & Celebrities
+              </div>
+            </a>
+          </div>
+          <div className='col-xl-2 col-md-4 col-6'>
+            <a href="https://www.shopbop.com/">
+              <div className='title'>
+                Shopbop
+              </div>
+              <div className='desc'>
+                Designer<br></br>
+                Fashion Brands
+              </div>
+            </a>
+          </div>
+          <div className='col-xl-2 col-md-4 col-6'>
+            <a href="https://www.amazon.in/l/21102587031?ref=footer_aingw">
+              <div className='title'>
+                Amazon Business
+              </div>
+              <div className='desc'>
+                Everything For<br></br>
+                Your Business
+              </div>
+            </a>
+          </div>
+          <div className='col-xl-2 col-md-4 col-6'>
+            <a href="https://www.amazon.in/l/8557209031?ref=footer_amznow">
+              <div className='title'>
+                Prime Now
+              </div>
+              <div className='desc'>
+                2-Hour Delivery<br></br>
+                on Everyday Items
+              </div>
+            </a>
+          </div>
+          <div className='col-xl-2 col-md-4 col-6'>
+            <a href="https://www.amazon.in/music/prime?ref=footer_apm">
+              <div className='title'>
+                Amazon Prime Music
+              </div>
+              <div className='desc'>
+                90 million songs, ad-free<br></br>
+                Over 15 million podcast episodes
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div className='bottom-footer-bottom'>
+          <a href=''>Conditions of Use & Sale</a>
+          <a href=''>Privacy Notice</a>
+          <a href=''>Interest-Based Ads</a>
+          <span>© 1996-{year}, Amazon.com, Inc. or its affiliates</span>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default BottomFooter;
+</file>
+
+<file path="client/src/components/footer/footer.css">
+.footer-signin {
+  background-color: white;
+  padding: 20px;
+}
+
+.signin-wrapper {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.signin-wrapper button {
+  background: linear-gradient(to bottom, #FFD875 40%, #FFC42D 40%);
+  border: 1px solid #E6A400;
+  width: 230px;
+  height: 28px;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+.signin-wrapper p:nth-child(1) {
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+.signin-wrapper p:nth-child(3) {
+  margin-top: 5px;
+  font-size: 11px;
+}
+.signin-wrapper p a {
+  color: #0071A5;
+  text-decoration: none;
+}
+.signin-wrapper p a:hover {
+  color: #D16F46;
+}
+
+.top-footer {
+  width: 100%;
+  height: 50px;
+  border: none;
+  background-color: #37475A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 13px;
+}
+.top-footer:hover {
+  background-color: #485769;
+}
+
+.middle-footer {
+  background-color: #232F3E;
+  color: #fff;
+}
+.middle-footer .middle-footer-top {
+  padding: 40px 150px;
+}
+.middle-footer .middle-footer-top h6 {
+  margin-bottom: 13px;
+}
+.middle-footer .middle-footer-top p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.middle-footer .middle-footer-top p a {
+  color: #ddd;
+  text-decoration: none;
+}
+.middle-footer .middle-footer-top p a:hover {
+  text-decoration: underline;
+}
+@media screen and (max-width: 1200px) {
+  .middle-footer .middle-footer-top .col-xl-3 {
+    margin: 15px 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .middle-footer .middle-footer-top {
+    padding: 40px 20px;
+  }
+  .middle-footer .middle-footer-top .col-xl-3 {
+    margin: 15px 0;
+  }
+  .middle-footer .middle-footer-top h6 {
+    font-size: 14px;
+  }
+  .middle-footer .middle-footer-top p {
+    font-size: 13px;
+    margin-bottom: 4px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .middle-footer .middle-footer-top h6 {
+    font-size: 13px;
+  }
+  .middle-footer .middle-footer-top p {
+    font-size: 12px;
+  }
+}
+.middle-footer .middle-footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-top: 1px solid #3A4553;
+  padding: 30px 0;
+}
+.middle-footer .middle-footer-bottom .logo-language {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.middle-footer .middle-footer-bottom .logo-language .footer-logo {
+  width: 80px;
+  margin-right: 90px;
+}
+.middle-footer .middle-footer-bottom .logo-language .footer-logo img {
+  width: 100%;
+}
+.middle-footer .middle-footer-bottom .logo-language button {
+  border: 1px solid #848688;
+  background-color: transparent;
+  color: #C7C5C8;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 10px;
+  border-radius: 3px;
+}
+.middle-footer .middle-footer-bottom .logo-language button #language-icon {
+  color: #fff;
+  font-size: 18px;
+  margin-right: 8px;
+}
+.middle-footer .middle-footer-bottom .logo-language .language-dropdown-content {
+  position: absolute;
+  top: 15px;
+  left: 168px;
+  background-color: #fff;
+  color: #000;
+  width: 250px;
+  padding: 10px 0;
+  border-radius: 2px;
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(0);
+  transition: 0.3s ease;
+}
+.middle-footer .middle-footer-bottom .logo-language .language-dropdown-content .lang-name {
+  padding: 5px 15px;
+  cursor: pointer;
+}
+.middle-footer .middle-footer-bottom .logo-language .language-dropdown-content .dropdown-divider {
+  border-top: 1px solid #bbb;
+}
+.middle-footer .middle-footer-bottom .logo-language .language-dropdown:hover .language-dropdown-content {
+  transform: translateY(15px);
+  visibility: visible;
+  opacity: 1;
+}
+.middle-footer .middle-footer-bottom .logo-language .language-dropdown-content label {
+  margin: 3px 0px 3px 10px;
+}
+.middle-footer .middle-footer-bottom .countries {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.middle-footer .middle-footer-bottom .countries a {
+  margin-left: 10px;
+  color: #ddd;
+  font-size: 12px;
+  text-decoration: none;
+}
+.middle-footer .middle-footer-bottom .countries a:hover {
+  text-decoration: underline;
+}
+@media screen and (max-width: 678px) {
+  .middle-footer .middle-footer-bottom .logo-language .language-dropdown-content {
+    left: 13px;
+  }
+}
+
+.bottom-footer {
+  background-color: #131A22;
+  padding: 23px 0;
+  color: #ddd;
+}
+.bottom-footer .col-xl-2 {
+  margin: 7px 0;
+}
+.bottom-footer a {
+  text-decoration: none;
+}
+.bottom-footer .title {
+  font-size: 11px;
+  color: #ddd;
+  line-height: 15px;
+}
+.bottom-footer .desc {
+  font-size: 10px;
+  color: #aaa;
+  line-height: 11px;
+}
+.bottom-footer a:hover .title, .bottom-footer a:hover .desc {
+  text-decoration: underline;
+}
+.bottom-footer .bottom-footer-bottom {
+  font-size: 12px;
+  text-align: center;
+  margin: 30px 0 7px 0;
+}
+.bottom-footer .bottom-footer-bottom a {
+  text-decoration: none;
+  color: #ddd;
+  margin-right: 15px;
+}
+.bottom-footer .bottom-footer-bottom a:hover {
+  text-decoration: underline;
+}
+</file>
+
+<file path="client/src/components/footer/Footer.jsx">
+import React from 'react';
+import SignIn from './SignIn';
+import TopFooter from './TopFooter';
+import MiddleFooter from './MiddleFooter';
+import BottomFooter from './BottomFooter';
+import './footer.css';
+
+const Footer = () => {
+
+  return (
+    <footer>
+      <SignIn />
+      <TopFooter />
+      <MiddleFooter />
+      <BottomFooter />
+    </footer>
+  )
+}
+
+export default Footer;
+</file>
+
+<file path="client/src/components/footer/MiddleFooter.jsx">
+import React from 'react';
+import LanguageIcon from '@mui/icons-material/Language';
+import $ from 'jquery';
+import logo from './logo.png';
+
+const MiddleFooter = () => {
+
+  function showLanguages () {
+    $(".language-dropdown-content").css({ 'transform': ' translateY(30px)', 'display': 'block', transition : '1s ease' });
+  }
+  function hideLanguages () {
+    $(".language-dropdown-content").css({ 'transform': 'translateY(0px)', 'display': 'none', transition : '1s ease' });
+  }
+
+  return (
+    <div className='middle-footer'>
+
+      <div className='middle-footer-top'>
+        <div className='row'>
+          <div className='col-6 col-xl-3'>
+            <h6>Get to Know Us</h6>
+            <p><a href="">About Us</a></p>
+            <p><a href="">Careers</a></p>
+            <p><a href="">Press Releases</a></p>
+            <p><a href="">Amazon Cares</a></p>
+            <p><a href="">Gift a Smile</a></p>
+            <p><a href="">Amazon Science</a></p>
+          </div>
+          <div className='col-6 col-xl-3'>
+            <h6>Connect with Us</h6>
+            <p><a href="https://www.facebook.com/AmazonIN">Facebook</a></p>
+            <p><a href="https://twitter.com/AmazonIN">Twitter</a></p>
+            <p><a href="https://www.instagram.com/amazondotin/">Instagram</a></p>
+          </div>
+          <div className='col-6 col-xl-3'>
+            <h6>Make Money with Us</h6>
+            <p><a href="">Sell on Amazon</a></p>
+            <p><a href="">Sell under Amazon Accelerator</a></p>
+            <p><a href="">Amazon Global Selling</a></p>
+            <p><a href="">Become an Affiliate</a></p>
+            <p><a href="">Fulfilment by Amazon</a></p>
+            <p><a href="">Advertise Your Products</a></p>
+            <p><a href="">Amazon Pay on Merchants</a></p>
+          </div>
+          <div className='col-6 col-xl-3'>
+            <h6>Let Us Help You</h6>
+            <p><a href="">COVID-19 and Amazon</a></p>
+            <p><a href="">Your Account</a></p>
+            <p><a href="">Returns Centre</a></p>
+            <p><a href="">100% Purchase Protection</a></p>
+            <p><a href="">Amazon App Download</a></p>
+            <p><a href="">Amazon Assistant Download</a></p>
+            <p><a href="">Help</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div className='middle-footer-bottom'>
+        <div className='logo-language'>
+          <div className='footer-logo'>
+            <a href="">
+              <img src={logo} />
+            </a>
+          </div>
+          <div className='language-dropdown'>
+            <button>
+              <LanguageIcon id="language-icon" />
+              English
+            </button>
+            <div className="language-dropdown-content">
+              <div className='lang-name'>
+                <input type='radio' name='language' id="english" value='EN' defaultChecked ></input>
+                <label htmlFor="english">English - EN</label>
+              </div>
+              <div className='dropdown-divider'></div>
+              <div className='lang-name'>
+                <input type='radio' name='language' id='x' value='HI'></input>
+                <label htmlFor="x">हिन्दी - HI</label>
+              </div>
+              <div className='lang-name'>
+                <input type='radio' name='language' id='y' value='TA'></input>
+                <label htmlFor="y">தமிழ் - TA</label>
+              </div>
+              <div className='lang-name'>
+                <input type='radio' name='language' id='z' value='KN'></input>
+                <label htmlFor="z">ಕನ್ನಡ - KN</label>
+              </div>
+              <div className='lang-name'>
+                <input type='radio' name='language' id='z' value='BN'></input>
+                <label htmlFor="z">বাংলা - BN</label>
+              </div>
+              <div className='lang-name'>
+                <input type='radio' name='language' id='z' value='MR'></input>
+                <label htmlFor="z">मराठी - MR</label>
+              </div> 
+            </div>
+          </div>
+        </div>
+        <div className='countries'>
+          <a href=''>Australia</a>
+          <a href=''>Brazil</a>
+          <a href=''>Canada</a>
+          <a href=''>China</a>
+          <a href=''>France</a>
+          <a href=''>Germany</a>
+          <a href=''>Italy</a>
+          <a href=''>Japan</a>
+          <a href=''>Mexico</a>
+          <a href=''>Netherlands</a>
+          <a href=''>Poland</a>
+          <a href=''>Singapore</a>
+          <a href=''>Spain</a>
+          <a href=''>Turkey</a>
+          <a href=''>United Arab Emirates</a>
+          <a href=''>United Kingdom</a>
+          <a href=''>United States</a>
+        </div>
+      </div>
+
+    </div>
+  )
+}
+
+export default MiddleFooter;
+</file>
+
+<file path="client/src/components/footer/SignIn.jsx">
+import React, { useEffect, useState } from 'react';
+import Loader from '../loader/Loader';
+import axios from 'axios';
+import { NavLink } from 'react-router-dom';
+
+const SignIn = () => {
+
+  // Loader
+  const [isLoading, setIsLoading] = useState(true);
+  const [showSignIn, setShowSignIn] = useState(true);
+
+  useEffect(function() {
+    async function fetchUser() {
+      try {
+        const res = await axios.get("http://localhost:8000/api/getAuthUser", {
+          withCredentials: true
+        });
+
+        if (res) {
+          setShowSignIn(false);
+        }
+      } catch (error) {
+        if (error.response.data.message == "No token provided") {
+          
+        } else {
+          console.log(error);
+        }
+      }
+      setIsLoading(false);
+    }
+
+    fetchUser();
+  }, [])
+
+  return (
+    <>
+      
+      { isLoading ?
+      <Loader /> : 
+        showSignIn ? 
+        <div className='footer-signin'>
+          <hr />
+          <div className='signin-wrapper'>
+            <p>See personalized recommendations</p>
+            <NavLink to='/login'>
+              <button>Sign in</button>
+            </NavLink>
+            
+            <p>New customer? <NavLink to='/register'>Start here.</NavLink></p>
+          </div>
+          <hr />
+        </div> :
+        ""
+      }
+    </>
+  )
+}
+
+export default SignIn;
+</file>
+
+<file path="client/src/components/footer/TopFooter.jsx">
+import React from 'react';
+
+const TopFooter = () => {
+
+  const scrollToTop = () =>{
+    window.scrollTo({
+      top: 0, 
+      behavior: 'smooth'
+    });
+  };
+
+  return (
+    <button onClick={scrollToTop}  className='top-footer'>
+      Back to top
+    </button>
+  )
+}
+
+export default TopFooter;
+</file>
+
+<file path="client/src/components/header/Navbar.css">
+nav {
+  background-color: #131921;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  top: 0;
+  z-index: 1000;
+}
+
+nav .logo {
+  margin-left: 40px;
+  padding: 3px;
+}
+nav .logo img {
+  margin-top: 10px;
+  width: 100px;
+}
+nav .logo:hover {
+  outline: 1px solid white;
+  border-radius: 2px;
+}
+
+nav .search {
+  display: flex;
+  position: absolute;
+  left: 18%;
+}
+nav .search .searchbar {
+  width: 600px;
+  padding: 0 10px;
+  height: 40px;
+  border: none;
+  font-size: 18px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+nav .search .searchbar:focus {
+  border: none;
+  outline: none;
+}
+nav .search .search-icon {
+  width: 55px;
+  height: 40px;
+  background-color: #FEBD69;
+  color: #333;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+nav .search .search-icon:hover {
+  background-color: #F3A847;
+}
+nav .search .search-icon > * {
+  font-size: 37px;
+}
+nav .search-list {
+  position: absolute;
+  left: 18%;
+  top: 50px;
+  z-index: 10;
+  background-color: #fff;
+  width: 655px;
+  outline: 1px solid #ddd;
+  outline-offset: -1px;
+  padding: 0;
+}
+nav .search-list .list-item {
+  padding: 0;
+}
+nav .search-list .list-item a {
+  width: 100%;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #333
+}
+nav .search-list .list-item a:hover {
+  background-color: #eee;
+}
+
+nav .buttons {
+  margin-right: 20px;
+  display: flex;
+  flex-direction: row;
+}
+nav .buttons a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  margin: 0 5px;
+  display: flex;
+  align-items: center;
+}
+nav .buttons a:hover {
+  outline: 1px solid white;
+  border-radius: 2px;
+}
+nav .buttons .login {
+  padding: 10px 17px;
+}
+nav .buttons .cart {
+  padding: 10px 17px;
+}
+nav .buttons .cart #cart-icon {
+  font-size: 26px;
+}
+nav .buttons .cart .button-text {
+  margin-left: 10px;
+}
+nav .buttons .profile:hover {
+  outline: none;
+  border-radius: 50%;
+}
+nav .buttons .profile {
+  margin-left: 20px;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #ccc;
+}
+nav .buttons .profile #profile-icon {
+  font-size: 24px;
+  color: #fff;
+}
+nav .buttons .profile #profile-letter {
+  font-size: 24px;
+  background-color: #1976D2;
+  color: #fff;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.profile-options h5 {
+  padding: 25px 15px;
+  background-color: #131921;
+  color: #fff;
+}
+.profile-options h5:hover {
+  color: #fff;
+}
+.profile-options > * {
+  text-decoration: none;
+  color: #444;
+}
+.profile-options > *:hover {
+  color: #444
+}
+.profile-options .profile-option {
+  padding: 12px 0;
+  display: flex;
+  align-items: center;
+}
+.profile-options .profile-option:hover {
+  background-color: #eee;
+  cursor: pointer;
+}
+.profile-options .profile-option .profile-icon {
+  width: 50px;
+}
+
+@media screen and (max-width: 1300px) {
+  nav .search {
+    left: 15%;
+  }
+  nav .search-list {
+    left: 15%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  nav .search .searchbar {
+    width: 400px;
+  }
+  nav .search {
+    left: 20%;
+  }
+  nav .search-list {
+    left: 20%;
+  }
+}
+@media screen and (max-width: 992px) {
+  nav .search .searchbar {
+    width: 300px;
+  }
+  nav .search {
+    left: 25%;
+  }
+  nav .search-list {
+    left: 25%;
+  }
+  nav .buttons .login {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  nav .search .searchbar, nav .search .search-icon {
+    display: none;
+  }
+  nav .logo {
+    margin-left: 20px;
+  }
+  nav .logo img {
+    margin-top: 7px;
+    width: 90px;
+  }
+  nav .buttons {
+    margin-right: 10px;
+  }
+  nav .buttons a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+  }
+  nav .buttons .login {
+    padding: 5px 10px;
+  }
+  nav .buttons .cart {
+    padding: 5px 10px;
+  }
+  nav .buttons .cart #cart-icon {
+    font-size: 22px;
+  }
+  nav .buttons .profile #profile-icon {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 450px) {
+  
+}
+
+.sub-nav {
+  height: 39px;
+  background-color: #232F3E;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sub-nav .left {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.sub-nav .left .left-item {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  padding: 3px 10px;
+  margin: 2px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.sub-nav .left .left-item:hover {
+  outline: 1px solid white;
+  border-radius: 2px;
+}
+.sub-nav .left .left-item.all {
+  font-weight: 700;
+  margin-left: 10px;
+}
+.sub-nav .left .left-item.all #hamburger {
+  font-size: 22px;
+  margin-right: 2px;
+}
+.sub-nav .right {
+  height: 39px;
+}
+.sub-nav .right .download img {
+  height: 100%;
+}
+.sub-nav .right .download:hover {
+  outline: 1px solid white;
+  outline-offset: -2px;
+  border-radius: 2px;
+}
+@media screen and (max-width: 1320px) {
+  .sub-nav {
+    display: none;
+  }
+}
+</file>
+
+<file path="client/src/components/header/Navbar.jsx">
+import React, { useEffect, useState } from 'react';
+import './Navbar.css';
+import axios from 'axios';
+import SearchIcon from '@mui/icons-material/Search';
+import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
+import PersonIcon from '@mui/icons-material/Person';
+import Badge from '@mui/material/Badge';
+import SubNavbar from './SubNavbar';
+import { NavLink, useNavigate } from 'react-router-dom';
+import $ from 'jquery';
+import logo from './logo.png';
+import Box from '@mui/material/Box';
+import Drawer from '@mui/material/Drawer';
+import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';
+import LogoutOutlinedIcon from '@mui/icons-material/LogoutOutlined';
+import List from '@mui/material/List';
+import ListItem from '@mui/material/ListItem';
+
+const Navbar = () => {
+
+  $(window).on('scroll', function() {
+    if ($(window).scrollTop() > 60) {
+      $('nav').css({ 'position': 'fixed' });
+      $('.sub-nav').css({ 'margin-top': '60px' });
+    } 
+    if ($(window).scrollTop() === 0) {
+      $('nav').css({ 'position': 'relative' });
+      $('.sub-nav').css({ 'margin-top': '0px' });
+    }
+  })
+
+  const [loginMsg, setLoginMsg] = useState("Sign in");
+  const [cartValue, setCartValue] = useState('0');
+  const [profilePhoto, setProfilePhoto] = useState(<NavLink to="/login" className='profile'><PersonIcon id="profile-icon" /></NavLink>);
+  const [loggedIn, setLoggedIn] = useState(false);
+
+  const [products, setProducts] = useState([]);
+
+
+    useEffect(function() {
+      // Fetching user data
+      async function fetchUser() {
+        try {
+          const res = await axios.get("http://localhost:8000/api/getAuthUser", {
+            withCredentials: true
+          });
+  
+          if (res) {
+            const name = res.data.name;
+            const fname = name.substring(0, name.indexOf(' '));
+            const fletter = name.substring(0, 1);
+    
+            const cartArr = res.data.cart;
+            let totalQty = 0;
+            for (let i = 0; i < cartArr.length; i++) {
+              totalQty += cartArr[i].qty;
+            }
+    
+            setLoginMsg(fname);
+            setCartValue(totalQty);
+            setProfilePhoto(<div onClick={toggleDrawer(true)} className="profile"><div id='profile-letter'>{fletter}</div></div>);
+            setLoggedIn(true);
+
+            setTimeout(function() {
+              fetchUser();
+            }, 2000)
+          }
+  
+        } catch (error) {
+          if (error.response.data.message === "No token provided") {
+            
+          } else {
+            console.log(error);
+          }
+        }
+      }
+
+      // Fetching products
+      async function fetchProducts() {
+        const res = await axios.get("http://localhost:8000/api/products");
+        setProducts(res.data);
+      }
+
+      fetchUser();
+      fetchProducts();
+    }, [])
+
+    const navigate = useNavigate();
+    // Logout 
+      function logout() {
+        try {
+          const res = axios.get("http://localhost:8000/api/logout", {
+            withCredentials: true
+          })
+
+          if (res) {
+            navigate("/");
+          
+            setLoginMsg("Sign in");
+            setCartValue("0");
+            setProfilePhoto(<NavLink to="/login" className='profile'><PersonIcon id="profile-icon" /></NavLink>);
+            setLoggedIn("false");
+          }
+        } catch (error) {
+          console.log(error);
+        }
+      }
+
+    // Profile button
+    const anchor = "right";
+    
+    const [state, setState] = React.useState({
+      right: false
+    });
+  
+    const toggleDrawer = (open) => (event) => {
+      if (event.type === 'keydown' && (event.key === 'Tab' || event.key === 'Shift')) {
+        return;
+      }
+      setState({ ...state, [anchor]: open });
+    };
+  
+    const list = (anchor) => (
+      <Box
+        sx={{ width: anchor === 'top' || anchor === 'bottom' ? 'auto' : 250 }}
+        role="presentation"
+        onClick={toggleDrawer(false)}
+        onKeyDown={toggleDrawer(false)}
+      >
+        <div className='profile-options'>
+          <h5>Hello, {loginMsg}</h5>
+          <a href='/profile'>
+            <div className='profile-option'>
+              <PersonOutlineOutlinedIcon className='profile-icon' /> Your Account
+            </div>
+          </a>
+          <a href='/orders'>
+            <div className='profile-option'>
+              <ShoppingCartOutlinedIcon className='profile-icon' /> Your Orders
+            </div>
+          </a>
+          <div>
+            <div className='profile-option' onClick={ logout }>
+              <LogoutOutlinedIcon className='profile-icon' /> Sign Out
+            </div>
+          </div>
+        </div>
+      </Box>
+    );
+
+    const [searchText, setSearchText] = useState("");
+    const [listHidden, setListHidden] = useState(true);
+
+    // Search filter 
+    function searchChange(e) {
+      setSearchText(e.target.value);
+      setListHidden(false);
+      if (e.target.value === "" || e.target.value.replace(/\s/g, "") == "") {
+        setListHidden(true);
+      }
+    }
+
+    let path="";
+    
+  return (
+    <header>
+      <nav>
+
+        <div className="logo">
+          <NavLink to="/">
+            <img src={logo} alt="logo" />
+          </NavLink>
+        </div>
+
+        <div className="search">
+          <input type="text" name="search" className="searchbar" onChange={searchChange} value={searchText} ></input>
+          <button className="search-icon">
+            <SearchIcon />
+          </button>
+        </div>
+
+        <List className='search-list' hidden={ listHidden }>
+          {
+            products.filter((productsFound) => {
+              return productsFound.name.toLowerCase().includes(searchText.toLowerCase())
+            }).slice(0, 5).map((product, index) => {
+              return (
+                <ListItem key={index} className='list-item'>
+                  <NavLink to={`/product/${product.id}`}>
+                  {product.name}
+                  </NavLink>
+                </ListItem>
+              )
+            })
+          }
+        </List>
+
+        <div className="buttons">
+          <a href={ loggedIn ? "/profile" : "/login" } className="login">
+            <div className="button-text">
+              Hello, {loginMsg}
+            </div>
+          </a>
+          <NavLink to="/cart" className="cart">
+            <Badge badgeContent={cartValue} color="primary">
+              <ShoppingCartOutlinedIcon id="cart-icon" />
+            </Badge>
+            
+            <div className="button-text">
+              Cart
+            </div>
+          </NavLink>
+
+          {profilePhoto}
+
+        </div>
+        
+      </nav>
+
+      <SubNavbar />
+
+      <React.Fragment key={anchor}>
+        <Drawer
+          anchor={anchor}
+          open={state[anchor]}
+          onClose={toggleDrawer(false)}
+        >
+          {list(anchor)}
+        </Drawer>
+      </React.Fragment>
+      
+    </header>
+  )
+}
+
+export default Navbar;
+</file>
+
+<file path="client/src/components/header/SubNavbar.jsx">
+import React from 'react';
+import './Navbar.css';
+import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
+import subnav from './subnav.jpg';
+
+const SubNavbar = () => {
+  return (
+    <div className="sub-nav">
+
+      <div className="left">
+        <a href='' className="left-item all">
+          <MenuOutlinedIcon id="hamburger" /> All
+        </a>
+        <a href='' className="left-item">
+          Best Sellers
+        </a>
+        <a href='' className="left-item">
+          Mobiles
+        </a>
+        <a href='' className="left-item">
+          Customer Services
+        </a>
+        <a href='' className="left-item">
+          Today's Deals
+        </a>
+        <a href='' className="left-item">
+          Fashion
+        </a>
+        <a href='' className="left-item">
+          Electronics
+        </a>
+        <a href='' className="left-item">
+          Home & Kitchen
+        </a>
+        <a href='' className="left-item">
+          New Releases
+        </a>
+      </div>
+
+      <div className="right">
+        <a href="" className="download">
+          <img src={subnav} alt="Download App"></img>
+        </a>
+      </div>
+
+    </div>
+  )
+}
+
+export default SubNavbar;
+</file>
+
+<file path="client/src/components/home/Banner.jsx">
+import React from 'react';
+import Carousel from 'react-bootstrap/Carousel';
+
+const Banner = () => {
+  return (
+    <div className='banner'>
+      <Carousel
+        variant='dark'
+        indicators={false}
+      >
+
+        <Carousel.Item>
+          <div className='carousel-img-wrapper'>
+            <img
+              className="carousel-img"
+              src="images/banner1.jpg"
+              alt="First slide"
+            />
+          </div>
+        </Carousel.Item>
+
+        <Carousel.Item>
+          <div className='carousel-img-wrapper'>
+            <img
+              className="carousel-img"
+              src="images/banner2.jpg"
+              alt="Second slide"
+            />
+          </div>
+        </Carousel.Item>
+
+        <Carousel.Item>
+          <div className='carousel-img-wrapper'>
+            <img
+              className="carousel-img"
+              src="images/banner3.jpg"
+              alt="Third slide"
+            />
+          </div>
+        </Carousel.Item>
+
+        <Carousel.Item>
+          <div className='carousel-img-wrapper'>
+            <img
+              className="carousel-img"
+              src="images/banner4.jpg"
+              alt="Fourth slide"
+            />
+          </div>
+        </Carousel.Item>
+
+        <Carousel.Item>
+          <div className='carousel-img-wrapper'>
+            <img
+              className="carousel-img"
+              src="images/banner5.jpg"
+              alt="Fifth slide"
+            />
+          </div>
+        </Carousel.Item>
+        
+      </Carousel>
+
+    </div>
+  )
+}
+
+export default Banner;
+</file>
+
+<file path="client/src/components/home/Card.jsx">
+import React from 'react';
+import './home.css';
+
+const Card = (props) => {
+  return (
+    <div className='cards-card'>
+      <h5>{props.name}</h5>
+      <div className='img-container'>
+        <a href="" >
+          <img src={"images/" + props.img + ".jpg"} alt={props.img}></img>
+        </a>
+      </div>
+      <a href="" className='bottom-link'>
+        {props.bottom}
+      </a>
+    </div>
+  )
+}
+
+export default Card;
+</file>
+
+<file path="client/src/components/home/CategoryCards.jsx">
+import React from 'react';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Card from './Card';
+import MultiCard from './MultiCard';
+import './home.css';
+
+const Cards = () => {
+  return (
+    <div className='cards-section'>
+      <div className='cards-container container-fluid'>
+        <div className='row cards'>
+          <div className='col-6 col-sm-4 col-xl-3 multi-card'>
+            <MultiCard name="Shop by Category" img="category-1" a="Smartwatches" b="Tablets" c="Laptops" d="Monitors" bottom="See more" />
+          </div>
+          <div className='col-6 col-sm-4 col-xl-3'>
+            <Card name="Health and Personal Care" img="category-2" bottom="Shop now" />
+          </div>
+          <div className='col-6 col-sm-4 col-xl-3'>
+            <Card name="Get Fit at Home" img="category-3" bottom="Explore now" />
+          </div>
+          <div className='col-6 col-sm-4 col-xl-3'>
+            <Card name="Shop Mother's Day Gifts" img="category-4" bottom="Shop now" />
+          </div>
+          <div className='col-6 col-sm-4 col-xl-3'>
+            <Card name="Computer & Accessories" img="category-5" bottom="Shop now" />
+          </div>
+          <div className='col-6 col-sm-4 col-xl-3'>
+            <Card name="Beauty Picks" img="category-6" bottom="Shop now" />
+          </div>
+          <div className='col-6 col-sm-4 col-xl-3 multi-card'>
+            <MultiCard name="Tools for Daily Use" img="category-7" a="Machinery" b="Equipments" c="Accessories" d="Medical Kits" bottom="See more" />
+          </div>
+          <div className='col-6 col-sm-4 col-xl-3'>
+            <Card name="Electronics" img="category-8" bottom="Shop more" />
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default Cards;
+</file>
+
+<file path="client/src/components/home/home.css">
+.home {
+  background-color: #EAEDED !important;
+  padding-bottom: 1px;
+}
+
+.banner {
+  position: relative;
+}
+.banner .carousel-img-wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+.banner .carousel-img {
+  width: 100%;
+}
+.banner .carousel-control-next, .banner .carousel-control-prev {
+  width: 6%;
+  height: 50%;
+}
+.banner .carousel-control-next-icon, .banner .carousel-control-prev-icon {
+  width: 3em;
+  height: 4em;
+}
+
+.home main {
+  position: relative;
+  margin-top: -22%;
+  width: 100%;
+}
+
+.slider {
+  background-color: white;
+  padding: 20px;
+  margin: 0 20px 20px 20px;
+}
+.slider .slider-heading {
+  display: flex;
+}
+.slider .slider-heading h5 {
+  font-weight: 700;
+}
+.slider .slider-heading a {
+  margin-left: 20px;
+  margin-top: 4px;
+  color: #0071A5;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+}
+.slider .slider-heading a:hover {
+  text-decoration: underline;
+  color: #D16F46;
+}
+.slider .swiper-slide {
+  width: auto !important;
+}
+.slider .swiper-slide a {
+  text-decoration: none;
+  color: #000;
+}
+.slider .swiper-slide .swiper-slide-img-wrapper {
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slider .swiper-slide .swiper-slide-img {
+  width: auto;
+}
+.slider .swiper-button-next {
+  right: 0;
+}
+.slider .swiper-button-prev {
+  left: 0;
+}
+.slider .swiper-button-next, .slider .swiper-button-prev {
+  top: 40%;
+  background-color: white;
+  width: 50px;
+  height: 100px;
+  box-shadow: 0 1px 3px #888;
+  border-radius: 3px;
+}
+.slider .swiper-button-next::after, .slider .swiper-button-prev::after {
+  font-size: 20px;
+  font-weight: 700;
+  color: #333;
+  opacity: 0.9;
+}
+.slider .swiper-button-next:hover::after {
+  opacity: 1;
+}
+
+.cards-section {
+  margin-bottom: 10px;
+}
+.cards-section .cards-container {
+  padding: 0 22px !important;
+  position: relative;
+}
+.cards-section .cards > * {
+  padding: 0 !important;
+}
+.cards-card {
+  background-color: white;
+  margin: 10px;
+  border-radius: 0;
+  z-index: 10;
+  padding: 15px 20px;
+  border-radius: 1px;
+}
+.cards-card h5 {
+  color: #000;
+  font-weight: 700;
+}
+.cards-card .img-container {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cards-card .img-container img {
+  height: 100%;
+}
+.cards-card .col-6 {
+  padding: 10px;
+}
+.cards-card .multi-img-container {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3px;
+}
+.cards-card .multi-img-container img {
+  height: 100%;
+}
+.cards-card span {
+  font-size: 13px;
+}
+.cards-card .bottom-link {
+  text-decoration: none;
+  color: #0071A5;
+  font-size: 13px;
+  font-weight: 500;
+}
+.cards-card .bottom-link:hover {
+  text-decoration: underline;
+  color: #D16F46;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .slider .swiper-slide {
+    margin-top: 10px;
+  }
+  .slider .swiper-slide .swiper-slide-img-wrapper {
+    height: 150px;
+  }
+  .slider .swiper-slide .swiper-slide-img {
+    height: 100%;
+  }
+  .slider .swiper-slide a p {
+    margin-top: 10px;
+  }
+  .slider .swiper-button-next, .slider .swiper-button-prev {
+    top: 35%;
+    width: 40px;
+    height: 80px;
+  }
+  .slider .swiper-button-next::after, .slider .swiper-button-prev::after {
+    font-size: 16px;
+  }
+  .cards-card h5 {
+    font-size: 16px;
+  }
+  .cards-card .img-container {
+    width: 100%;
+  }
+  .cards-card .img-container img {
+    height: auto;
+    width: 100%;
+  }
+  .multi-card {
+    display: none
+  }
+}
+@media screen and (max-width: 991px) {
+  .slider .swiper-slide .swiper-slide-img-wrapper {
+    height: 120px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .slider .swiper-slide .swiper-slide-img-wrapper {
+    height: 90px;
+  }
+  .slider .swiper-slide a p {
+    font-size: 14px;
+  }
+  .slider .swiper-button-next, .slider .swiper-button-prev {
+    width: 30px;
+    height: 60px;
+  }
+  .slider .swiper-button-next::after, .slider .swiper-button-prev::after {
+    font-size: 14px;
+  }
+  .slider .slider-heading h5 {
+    font-size: 16px;
+  }
+  .slider .slider-heading a {
+    margin-left: 15px;
+    margin-top: 0px;
+  }
+  .cards-section .col-xl-3 {
+    margin-bottom: 20px;
+  }
+  .cards-section .cards-card {
+    height: 100%;
+    padding-bottom: 0;
+  }
+  .cards-card h5 {
+    font-size: 14px;
+  }
+  .cards-card .img-container {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  .cards-card .bottom-link {
+    font-size: 11px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .banner .carousel-img-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .banner .carousel-img {
+    width: 135%;
+  }
+  .slider .swiper-slide .swiper-slide-img-wrapper {
+    height: 60px;
+  }
+  .slider .swiper-slide a p {
+    font-size: 13px;
+  }
+  .slider .swiper-button-next, .slider .swiper-button-prev {
+    width: 20px;
+    height: 40px;
+  }
+  .slider .swiper-button-next::after, .slider .swiper-button-prev::after {
+    font-size: 13px;
+  }
+  .slider .slider-heading h5 {
+    font-size: 14px;
+  }
+  .slider .slider-heading a {
+    margin-left: 15px;
+    margin-top: 1px;
+    font-size: 11px;
+    width: 100px
+  }
+  .cards-card h5 {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .slider .slider-heading a {
+    width: 130px
+  }
+}
+</file>
+
+<file path="client/src/components/home/Home.jsx">
+import React from 'react';
+import Banner from './Banner';
+import CategoryCards from './CategoryCards';
+import Slider from './Slider';
+import './home.css';
+
+export const Home = () => {
+  return (
+    <div className='home'>
+      <Banner />
+      <main>
+        <Slider title="Today's Deals" link_text="See all deals" arrFrom="0" arrTo="13" class="todaysDeals" />
+        <Slider title="Up to 60% off on home products | Small businesses" link_text="See all offers" arrFrom="13" arrTo="22" class="SmallBusinesses" />
+        <CategoryCards />
+      </main>
+    </div>
+  )
+}
+
+export default Home;
+</file>
+
+<file path="client/src/components/home/MultiCard.jsx">
+import React from 'react';
+import './home.css';
+
+const MultiCard = (props) => {
+  return (
+    <div className='cards-card'>
+      <h5>{props.name}</h5>
+      <div className="row">
+        <div className="col-6">
+          <div className='multi-img-container'>
+            <a href="" >
+              <img src={"images/" + props.img + "-a.jpg"} alt={props.img}></img>
+            </a>
+          </div>
+          <span>{props.a}</span>
+        </div>
+        <div className="col-6">
+          <div className='multi-img-container'>
+            <a href="" >
+              <img src={"images/" + props.img + "-b.jpg"} alt={props.img}></img>
+            </a>
+          </div>
+          <span>{props.b}</span>
+        </div>
+        <div className="col-6">
+          <div className='multi-img-container'>
+            <a href="" >
+              <img src={"images/" + props.img + "-c.jpg"} alt={props.img}></img>
+            </a>
+          </div>
+          <span>{props.c}</span>
+        </div>
+        <div className="col-6">
+          <div className='multi-img-container'>
+            <a href="" >
+              <img src={"images/" + props.img + "-d.jpg"} alt={props.img}></img>
+            </a>
+          </div>
+          <span>{props.d}</span>
+        </div>
+      </div>
+      <a href="" className='bottom-link'>
+        {props.bottom}
+      </a>
+    </div>
+  )
+}
+
+export default MultiCard;
+</file>
+
+<file path="client/src/components/home/products.js">
+export const products = [
+  {
+    id: "1",
+    url: "images/products/1.jpg",
+    resUrl: "../images/products/1res.jpg",
+    price: "₹61,990.00",
+    value: "61,990",
+    discount: "-46%",
+    mrp: "₹1,15,668.00",
+    name: "Lenovo ThinkBook 14 Intel Core i5 11th Gen 14 inch (35.56cm) FHD IPS Thin & Light Laptop (16GB RAM/512GB SSD/Windows 11 Home/MS Office 2021/FPR/Intel Iris Xe Graphics Mineral Grey/1.4 kg), 20VDA0TLIH",
+    points: [
+      "ThinkBook 14 Reliability tested on 12 MIL-STD-810H Methods and 22 Procedures | Body Material: Aluminium | Surface Treatment: Anodizing sandblasting | Built to withstand rugged usage and can handle accidental knocks, drops, and even spills",
+      "Processor: 11th Gen Intel Core i5-1135G7, 2.4 Ghz base clock, 4.2 Ghz max boost clock, 4 Cores, 8 MB Cache | Memory: 16GB (8GB soldered + 8GB SO-DIMM) RAM DDR4-3200 MHz upgradable upto 40 GB | Storage: 512GB SSD M.2",
+      "Operating System: Preloaded Windows 11 Home with Lifetime Validity | Pre-installed software: Microsoft Office Home & Student 2021",
+      "Display: 14-inch (35.56 cm) screen with (1920X1080) Full HD IPS 250 nits Antiglare display | Graphics: Integrated Intel Iris Xe Graphics comes with DirectX 12 enables amazing graphics | Monitor Support: Supports up to 4 independent displays",
+      "Ports: 2x USB 3.2 Gen 1 (1x Always On), 1x USB-C 3.2 Gen 2 (support data transfer, PD 3.0 and DP 1.4), 1x Thunderbolt 4 / USB4 40Gbps (support data transfer, PD 3.0 and DP 1.4), 1x HDMI 1.4b, 1x Card reader, 1x Ethernet (RJ-45), 1x Headphone / microphone combo jack (3.5mm)"
+    ]
+  },
+  {
+    id: "2",
+    url: "images/products/2.jpg",
+    resUrl: "../images/products/2res.jpg",
+    price: "₹39,499.00",
+    value: "39,499",
+    discount: "-47%",
+    mrp: "₹74,999.00",
+    name: "Samsung Galaxy S20 FE 5G (Cloud Navy, 8GB RAM, 128GB Storage) with No Cost EMI & Additional Exchange Offers",
+    points: [
+      "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB internal memory expandable up to 1TB, Android 11.0 operating system and dual SIM",
+      "Triple Rear Camera Setup - 12MP (Dual Pixel) OIS F1.8 Wide Rear Camera + 8MP OIS Tele Camera + 12MP Ultra Wide | 30X Space Zoom, Single Take & Night Mode | 32MP F2.2 Front Punch Hole Camera",
+      "6.5-inch(16.40 centimeters) Infinity-O Super AMOLED Display with 120Hz Refresh rate, 1080 x 2400 (FHD+) Resolution",
+      "4500 mAh battery (Non -removable) with Super Fast Charging, FAst Wireless Charging & Finger Print sensor",
+      "IP68 Rated, MicroSD Card Slot (Expandable upto 1 TB), Dual Nano Sim, Hybrid Sim Slot, 5G+5G Dual stand by"
+    ]
+  },
+  {
+    id: "3",
+    url: "images/products/3.jpg",
+    price: "₹21,900.00",
+    name: "New Apple AirPods Pro with MagSafe Charging Case",
+    resUrl: "../images/products/3res.jpg",
+    value: "21,900",
+    discount: "-12%",
+    mrp: "₹24,900.00",
+    points: [
+      "Active Noise Cancellation blocks outside noise, so you can immerse yourself in music",
+      "Transparency mode for hearing and interacting with the world around you",
+      "Spatial audio with dynamic head tracking places sound all around you",
+      "Adaptive EQ automatically tunes music to your ears",
+      "Three sizes of soft, tapered silicone tips for a customisable fit"
+    ]
+  },
+  {
+    id: "4",
+    url: "images/products/4.jpg",
+    price: "₹1,299.00",
+    name: "boAt Airdopes 121v2 True Wireless Earbuds with Upto 14 Hours Playback, Lightweight Earbuds, 8MM Drivers, LED Indicators and Multifunction Controls(Active Black)",
+    resUrl: "../images/products/4res.jpg",
+    value: "1,299",
+    discount: "-57%",
+    mrp: "₹2,990.00",
+    points: [
+      "Playback- Airdopes 121v2 offers a nonstop playback of up to 3.5H with each charge and an additional 10.5H playtime with the included charging case",
+      "Lightweight- With a dual tone finish on a lightweight ergonomic design weighing just around 4g per earbud, get ready to groove in full flow with Airdopes 121v2v2 TWS earbuds",
+      "Drivers- It possesses powerful 8mm drivers that pump out immersive auditory experience all day long",
+      "Battery Indicator- Its carry cum charge case also has the battery LED indicator that shows the remaining power for the case",
+      "Controls- The true wireless earbuds offer easy access multifunction button controls with stereo calling feature for an overall seamless user experience."
+    ]
+  },
+  {
+    id: "5",
+    url: "images/products/5.jpg",
+    price: "₹999.00",
+    name: "Classic Mosquito Net for Double Bed, Embroidery, King Size, Polyester, Strong 30GSM, PVC Coated Steel (L200cm X W200cm X H145cm) Foldable for Double Bed - King Size, Blue",
+    resUrl: "../images/products/5res.jpg",
+    value: "999",
+    discount: "-50%",
+    mrp: "₹2,000.00",
+    points: [
+      "Size of Double bed is 200cm X 200cm X 145cm (i.e. 6.56ft X 6.56ft X 4.75ft) can Easily accommodate bed for King size, Super King size bed. Suitable for 2 Adults & 1 Child.",
+      "Easily Washable (steel wires are corrosion resistant), Self-Supporting, No Requirement to nail the wall.",
+      "Pops up in an Instant and Automatically, Can be folded in less than 30 Seconds.",
+      "Storage Bag Included at free of cost, comes with patches to cover the future accidental holes in the mosquito net, Provided with large Zipper gates on two Sides with inner and outer runner for easy and convenient Entry and Exit.",
+      "Easy to fold, Easy to carry, it offers a healthy environment to sleep in."
+    ]
+  },
+  {
+    id: "6",
+    url: "images/products/6.jpg",
+    price: "₹2,097.00",
+    name: "crocs Unisex-Adult Bayaband Clog",
+    resUrl: "../images/products/6res.jpg",
+    value: "2,097",
+    discount: "-40%",
+    mrp: "₹3,495.00",
+    points: [
+      "Sole: Ethylene Vinyl Acetate",
+      "Sole: Ethylene Vinyl Acetate",
+      "Shoe Width: Regular",
+      "Outer Material: EVA. Washes off with soap and water",
+      "Closure Type: Slip On"
+    ]
+  },
+  {
+    id: "7",
+    url: "images/products/7.jpg",
+    price: "₹1,619.00",
+    name: "INDO ERA Women's Viscose Embroidered Straight Kurta Palazzo With Dupatta Set",
+    resUrl: "../images/products/7res.jpg",
+    value: "1,619",
+    discount: "-60%",
+    mrp: "₹3,999.00",
+    points: [
+      "Care Instructions: Dry Clean Only",
+      "Fit Type: Regular",
+      "Print & Pattern : Solid ; Package Contant : Kurta, Palazzo With Dupatta",
+    ]
+  },
+  {
+    id: "8",
+    url: "images/products/8.jpg",
+    price: "₹2,884.00",
+    name: "QUBO Smart Cam 360 | 1080p Full HD Wi-Fi Camera | Trust of Hero Group | 360° Deg Coverage with Pan & Tilt | Intruder Alarm | Full Color in Low Light | Two Way Talk | Alexa & OK Google | Made in India",
+    resUrl: "../images/products/8res.jpg",
+    value: "2,884",
+    discount: "-28%",
+    mrp: "₹3,990.00",
+    points: [
+      "PROUDLY INDIAN: Qubo Smart Cam 360 is Designed & Made in INDIA. Engineered for the Security Needs of the Indian Market.",
+      "TRUST OF HERO GROUP: Our Round-the-Clock Customer Service & Wide field Network not only resolves your all concerns & queries but rather ensures complete peace of mind for Lifetime.",
+      "360 COVERAGE: Multi-Directional rotation of the lens ensures that there are no blind spots. NOTE: Qubo Smart Cam 360 is designed to be used indoors only.",
+      "THEFT PROOF CLOUD STORAGE: Secure all your recordings on cloud storage based in India. Your private home moments stay with you even if the device is stolen.",
+      "PERSON DETECTION WITH INTRUDER ALARM : Advanced AI capabilities that can smartly detect & notify whenever a person is detected. You can also ring an automatic loud siren in case of an intrusion."
+    ]
+  },
+  {
+    id: "9",
+    url: "images/products/9.jpg",
+    price: "₹1,299.00",
+    name: "TIMEX Analog Men's Watch",
+    resUrl: "../images/products/9res.jpg",
+    value: "1,299",
+    discount: "-19%",
+    mrp: "₹1,595.00",
+    points: [
+      "Case Shape: Round, Dial Glass Material: Mineral, Band material: Leather",
+      "Watch Movement Type: Quartz, Watch Display Type: Analog",
+      "Case Material: Brass, Case Diameter: 40 millimeters, Brass Bezel ; Case Thickness: 8.8mm",
+      "Water Resistance Depth: 30 meters, Buckle Clasp",
+      "Ideal for birthday, anniversary and wedding gift"
+    ]
+  },
+  {
+    id: "10",
+    url: "images/products/10.jpg",
+    price: "₹429.00",
+    name: "Yogabar Dark Chocolate & Cranberry Muesli 700g - Breakfast Cereal with 83% Nuts & Seeds, Dried Fruits, & Whole Grains - Vegan & Gluten Free Snack",
+    resUrl: "../images/products/10res.jpg",
+    value: "429",
+    discount: "-14%",
+    mrp: "₹499.00",
+    points: [
+      "Whole grains: Quinoa, Oats and Brown Rice",
+      "Made from 100% natural ingredients",
+      "Rich in nuts and dried fruits: almonds, raisins, dried cranberries rich in seeds: pumpkin, chia and flax",
+      "Antioxidant rich dark chocolate + cranberry",
+      "Slow-roasted, slow ground in small batches for superior flavour"
+    ]
+  },
+  {
+    id: "11",
+    url: "images/products/11.jpg",
+    price: "₹358.00",
+    name: "Integriti Men Sweatshirt",
+    resUrl: "../images/products/11res.jpg",
+    value: "358",
+    discount: "-86%",
+    mrp: "₹2,499.00",
+    points: [
+      "Care Instructions: Machine Wash",
+      "Fit Type: Modern",
+      "Hooded,Long Sleeve,Print",
+      "Sweatshirt",
+      "Package Dimensions: 10.7 L x 39.6 H x 38.0 W (centimeters)"
+    ]
+  },
+  {
+    id: "12",
+    url: "images/products/12.jpg",
+    price: "₹630.00",
+    name: "Harpa Synthetic a-line Dress (GR5759_Navy_Small)",
+    resUrl: "../images/products/12res.jpg",
+    value: "630",
+    discount: "-70%",
+    mrp: "₹2,099.00",
+    points: [
+      "Care Instructions: Hand Wash Only",
+      "Color name: pink",
+      "100% Polyester",
+      "Hand wash; A-line",
+      "Sleeveless"
+    ]
+  },
+  {
+    id: "13",
+    url: "images/products/13.jpg",
+    price: "₹3,999.00",
+    name: "boAt Stone 1200 14W Bluetooth Speaker with Upto 9 Hours Battery, RGB LEDs, IPX7 and TWS Feature(Blue)",
+    resUrl: "../images/products/13res.jpg",
+    value: "3,999",
+    discount: "-43%",
+    mrp: "₹6,990.00",
+    points: [
+      "It delivers a powerful 14W stereo sound for a complete immersive experience.",
+      "Stone 1200 provides a battery time of upto 9 hours without its RGB LEDs and upto 7 hours with it(@60% volume) with a charging time of 4 hours.",
+      "Carry your splashproof speakers to anywhere with IPX7 splash & water shield leaving behind the tension of water running over",
+      "Add a second speaker with our TWS technology and enjoy sound, twice as powerful, Battery Capacity (mAh) - 3600 mAh, Playback Time - 9 hours, Charging Time - 4 hours, Standby Time 360 hours",
+      "Its 360-degree ergonomic design makes it ideal to be carried around anywhere you go. It also comes with a carry strap making it very convenient for you to carry it around."
+    ]
+  },
+  {
+    id: "14",
+    price: "₹699.00",
+    value: "699",
+    discount: "-53%",
+    mrp: "₹1,499",
+    url: "images/products/14.jpg",
+    resUrl: "../images/products/14res.jpg",
+    name: "Interiocrafts Cast Iron Degchi Style Dhoop and Tealight Candle Holder",
+    points: [
+      "✔ It can be used as a dhoop dani with the lid on and candle holder with votive stand. A perfect item for your pooja mandir.",
+      "✔ The chic functionality of this beautiful votive candle and dhoop holder is inimitable.",
+      "✔ Rajasthan is famous for its handicrafts and the creativity of the artists can clearly be seen with use of artifacts.",
+      "✔ It will not get heated up while use;It is easy to hold for doing 'Dhuni' in your entire house.",
+      "✔ It can be used for inserting loban, bakhoor, samarni dhoop incense sticks",
+    ]
+  },
+  {
+    id: "15",
+    price: "₹499.00",
+    url: "images/products/15.jpg",
+    name: "Urban Born Cast Iron Metal Flower vase for Home Decor and Living Room Vintage Antique Decor (Gold, 15 x 15 x 15 cm)",
+    resUrl: "../images/products/15res.jpg",
+    value: "499",
+    discount: "-50%",
+    mrp: "₹1,000.00",
+    points: [
+      "This flower vase is made from one Piece of Iron with unique Decorative design.",
+      "Item size : HXW : 15 x 15 cm / Finish- Gold",
+      "Package contains -1pc Flower vase without Flowers.Good-quality and stylish products.Flowers are for illustration purpose not with Vase.",
+      "This flower vase is made from one Piece of Iron with unique Decorative design.",
+      "Great for gifting purposes in Diwali, Birthday, Anniversary, Corporate party etc."
+    ]
+  },
+  {
+    id: "16",
+    price: "₹999.00",
+    url: "images/products/16.jpg",
+    name: "Livpure Smart Solid Window Polyester 5 feet Curtains with tieback( Beige ) Set",
+    resUrl: "../images/products/16res.jpg",
+    value: "999",
+    discount: "-33%",
+    mrp: "₹1,499.00",
+    points: [
+      "Color: Beige Size: 5 Feet Material: Polyester Package Contents: 2 Window Curtains Attached tiebacks: Yes (Velcro) Window Curtain Dimensions: 152.4 x 132 CM. | 60 x 52 INCH",
+      "Blackout: Blocks 95% sunlight from passing through the curtains Noise reduction: Blocks most of the street noise & keeps the inside undisturbed UV protection: Blocks UV rays from sunlight to pass through into your home Temperature insulation: Blocks heat transfer and helps in maintaining the AC efficiency",
+      "Unique 3-Weave Technology: Livpure curtains are made using Triple Weave Technology with three layers of fabric strongly interwoven to ensure effective blackout, protection from the UV rays and insulate your home",
+      "Hanging Style: These curtains are easy to install and come with high quality eyelet rings Eyelet Rings: Detachable with 1.5 in inner diameter for the curtain to fit nicely Wash Care: Hands & Machine washable after removing the eyelets, Do not bleed color",
+      "Product color may slightly vary due to photographic lighting sources or your monitor settings"
+    ]
+  },
+  {
+    id: "17",
+    price: "₹399.00",
+    url: "images/products/17.jpg",
+    name: "VMPS | Door mats Anti Skid for Home, 40x60 cm Pack of 1 ( Grey ) - Water Absorbent Rugs",
+    resUrl: "../images/products/17res.jpg",
+    value: "399",
+    discount: "-60%",
+    mrp: "₹999.00",
+    points: [
+      "Super Absorbent Doormat: Made of 55% cotton + 45% microfiber, the magic clean mat can easily scrap off mud, dirt, dust, grit, snow, slush, sleet and grass from shoes instantly.",
+      "Non-slip: the non-slip bathroom mat for home is backed with tp rubber to prevent shifting and skidding. Caution : place rug on clean dry smooth floor only. Water under rug can cause it to slip. Keep bottom of rug dry. This is same with all the bath rugs across all the brands globally",
+      "Ultra absorbent: the microfiber washroom door mat is much more absorbent than normal bathmats. High-pile helps save your floors from dripping water while you€re stepping out of the bath, shower, or getting ready by the sink. Moisture is trapped in the mats deep pile, allowing the rug to dry quickly and cleanly",
+      "Size of Doormats is 16 X 24 inches or 40 X 60 cm or 1.5 ft X 2 ft, ideal for size of your Indoor Entrances, Weight of Single Piece is around 500 Grams",
+      "A high quality Microfiber doormats with heat resistance and non-irritating odour"
+    ]
+  },
+  {
+    id: "18",
+    price: "₹699.00",
+    url: "images/products/18.jpg",
+    name: "Trending Home Collection Cushion Cover with Booti Zari Embroidered Stitched Zippered Cotton Velvet Cushion Cover | 16X16 Inches | Set of 2| (Yellow)",
+    resUrl: "../images/products/18res.jpg",
+    value: "699",
+    discount: "-42%",
+    mrp: "₹1,199.00",
+    points: [
+      "Size: 16 X 16 inches/ 40 cm x 40 cm . Only Booti Zari embroidered velvet cushion cover, FILLER ARE NOT INCLUDED. Square pillowcase is suitable for home decor, couch, sofa, chair, bed, car, party, hotel, office, cafe décor ,diwali gift , xmas , christmas , new year , balcony , 2021",
+      "Fabric Material: The cushion cover is made of Azo free dye with environment friendly ZARI embroidered export quality cotton velvet fabric . The fabric is sturdy durable, not easily breaking or tearing. The Interlocking technique use inside helps to maintain the strength of cover",
+      "Decoration -All the cushion cover are made by exclusive color and design.You can also use as a gift pack as it comes in beautiful packaging.",
+      "Care Instruction -Dry clean only,No Bleach,No Tumble Dry,Iron at Back Side",
+      "Made in India"
+    ]
+  },
+  {
+    id: "19",
+    price: "₹1,399.00",
+    url: "images/products/19.jpg",
+    name: "NEW LEAF 220 GSM All-Season Printed Super Soft Light Weight Cotton Comforter Set with 1 Bedsheet 2 Pillow Covers (Double, Blue, Orange) -4 Pieces",
+    resUrl: "../images/products/19res.jpg",
+    value: "1,399",
+    discount: "-72%",
+    mrp: "₹4,999.00",
+    points: [
+      "The king size quilt set includes - 1pc Bedsheet 1 quilt (100 inch x 90 inch), 2pcs cover ( 18 inch x 28 inch)",
+      "New Embroidered artwork makes the quilts much more durable and lightweight rather than the traditional stitching technique.",
+      "The cover and filling are made of 100% Microfiber.",
+      "The geometric classic pattern is easy to match your bedroom decor, offering you an elegant and classic feeling.",
+      "Machine wash cold, gentle cycle, only non-chlorine bleach when needed, tumble dry low, steam if needed, do not iron. No shrinkage, No colour fading and No unravelling after washing."
+    ]
+  },
+  {
+    id: "20",
+    price: "₹329.00",
+    url: "images/products/20.jpg",
+    name: "Kaameri Bazaar Bronze Color Metal Bird cage Tea Light Holder with Butter Pot tealight Glass for Home Décor",
+    resUrl: "../images/products/20res.jpg",
+    value: "329",
+    discount: "-63%",
+    mrp: "₹899.00",
+    points: [
+      "This Diwali Light Your home with this beautiful Bird Cage Tealight Holder",
+      "This stunning Kaameri Bazaar Tealight Holder makes for a perfect addition to your home.",
+      "BENEFITS: They can accent your home or office for the right decor. Perfect for adding a decorative touch to any room's decor",
+      "Made from high quality material, Durable and Long lasting",
+      "Ideal For: Decoration, Gifting, Diwali Decoration, Christmas Party Decoration, Home Decor, Candle Light Dinner"
+    ]
+  },
+  {
+    id: "21",
+    price: "₹549.00",
+    url: "images/products/21.jpg",
+    name: "The Vintage Artefacts Donut White, Ceramic Pot and vase Handcrafted, Round Shaped (vase)",
+    resUrl: "../images/products/21res.jpg",
+    value: "549",
+    discount: "-63%",
+    mrp: "₹1,499.00",
+    points: [
+      "This Diwali Light Your home with this beautiful Bird Cage Tealight Holder",
+      "This stunning Kaameri Bazaar Tealight Holder makes for a perfect addition to your home.",
+      "BENEFITS: They can accent your home or office for the right decor. Perfect for adding a decorative touch to any room's decor",
+      "Made from high quality material, Durable and Long lasting",
+      "Ideal For: Decoration, Gifting, Diwali Decoration, Christmas Party Decoration, Home Decor, Candle Light Dinner"
+    ]
+  },
+  {
+    id: "22",
+    price: "₹1,499.00",
+    url: "images/products/22.jpg",
+    name: "JH Gallery Handcrafted and Emboss Painted Colorful Wood Elephant Shape Garden Table (8 Inches Height, Red)",
+    resUrl: "../images/products/22res.jpg",
+    value: "1,499",
+    discount: "-44%",
+    mrp: "₹1,499.00",
+    points: [
+      "JH Gallery Presents Hand crafted Or Hand Painted decorative wooden small Elephant Stool Multicolored which widely used in worldwide to decor balcony, office stool, living room, side table. It is traditional item made up of mango wood and MDF also.",
+      "Package Content -One Wooden Elephant Statue Table Cum Stool/Handcrafted with Artistic Painting",
+      "Perfect For Decor as Table It's very suitable for gifting as it comes in best packaging as well. Perfect for using end table nightstand, kids step stool, night stand, keeping your planters, as a stand",
+      "Care Instruction : table away from warmth , heat and sunshine. Use dry/wet cotton cloth to remove dirt.",
+      "100% Handmade :- Handmade by recognized Artisans from JH Gallery Rajasthan, product created under Make in INDIA"
+    ]
+  }
+]
+</file>
+
+<file path="client/src/components/home/Slider.jsx">
+import React, { useEffect, useState } from 'react';
+import axios from 'axios';
+import './home.css';
+import Loader from '../loader/Loader';
+import { NavLink } from 'react-router-dom';
+
+// Importing swiper and its components
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+import { Pagination, Navigation } from "swiper";
+
+const Slider = (props) => {
+
+  // Loader
+  const [isLoading, setIsLoading] = useState(true);
+
+  // Fetching products from API
+  const [products, setProducts] = useState([]);
+
+  useEffect(function() {
+    async function fetchProducts() {
+      try {
+        const res = await axios.get('http://localhost:8000/api/products');
+        setProducts(res.data);
+        setIsLoading(false);
+      } catch (error) {
+        console.log(error);
+      }
+    }
+
+    fetchProducts();
+  }, [])
+
+  if (products[products.length-1]) {
+    return (
+      <div className='slider'>
+        <div className='slider-heading'>
+          <h5>{props.title}</h5>
+          <a href="">{props.link_text}</a>
+        </div>
+        <Swiper
+            slidesPerView='auto'
+            spaceBetween={10}
+            slidesPerGroupAuto={true}
+            navigation={true}
+            modules={[Pagination, Navigation]}
+            className={props.class}
+          >
+            {
+              products.filter((item, index) => (index < props.arrTo && index >= props.arrFrom)).map(function(product) {
+                const path = "product/" + product.id;
+                return (
+                  <SwiperSlide className='swiper-slide' key={product.id}>
+                    <NavLink to={path}>
+                      <div className='swiper-slide-img-wrapper'>
+                        <img src={product.url} className="swiper-slide-img" alt={product.url} />
+                      </div>
+                      <p>{product.price}</p>
+                    </NavLink>
+                  </SwiperSlide>
+                )
+              })
+            }
+  
+          </Swiper>
+      </div>
+    ) 
+  } else {
+    return  (
+      <div className='slider' style={{ height: '332px' }}>
+        { isLoading ? <Loader /> : "" }
+      </div>
+      )
+  }
+}
+
+export default Slider;
+</file>
+
+<file path="client/src/components/loader/loader.css">
+.spinner-container {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loader {
+  width: 50px;
+  height: 50px;
+  border: 7px solid #e3e8ec;
+  border-top: 7px solid #1976D2;
+  border-radius: 50%;
+  animation: spinner 1.3s linear infinite;
+}
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+</file>
+
+<file path="client/src/components/loader/Loader.jsx">
+import React from 'react';
+import './loader.css';
+
+const Loader = () => {
+  return (
+    <div className="spinner-container">
+      <div className="loader">
+      </div>
+    </div>
+  )
+}
+
+export default Loader;
+</file>
+
+<file path="client/src/components/login-register/CountryCode.jsx">
+import React from 'react';
+import './login-register.css';
+
+const CountryCode = () => {
+  return (
+    <select name="countryCode" className='country-code'>
+        <option data-countryCode="DZ" value="213">Algeria (+213)</option>
+        <option data-countryCode="AD" value="376">Andorra (+376)</option>
+        <option data-countryCode="AO" value="244">Angola (+244)</option>
+        <option data-countryCode="AI" value="1264">Anguilla (+1264)</option>
+        <option data-countryCode="AG" value="1268">Antigua &amp; Barbuda (+1268)</option>
+        <option data-countryCode="AR" value="54">Argentina (+54)</option>
+        <option data-countryCode="AM" value="374">Armenia (+374)</option>
+        <option data-countryCode="AW" value="297">Aruba (+297)</option>
+        <option data-countryCode="AU" value="61">Australia (+61)</option>
+        <option data-countryCode="AT" value="43">Austria (+43)</option>
+        <option data-countryCode="AZ" value="994">Azerbaijan (+994)</option>
+        <option data-countryCode="BS" value="1242">Bahamas (+1242)</option>
+        <option data-countryCode="BH" value="973">Bahrain (+973)</option>
+        <option data-countryCode="BD" value="880">Bangladesh (+880)</option>
+        <option data-countryCode="BB" value="1246">Barbados (+1246)</option>
+        <option data-countryCode="BY" value="375">Belarus (+375)</option>
+        <option data-countryCode="BE" value="32">Belgium (+32)</option>
+        <option data-countryCode="BZ" value="501">Belize (+501)</option>
+        <option data-countryCode="BJ" value="229">Benin (+229)</option>
+        <option data-countryCode="BM" value="1441">Bermuda (+1441)</option>
+        <option data-countryCode="BT" value="975">Bhutan (+975)</option>
+        <option data-countryCode="BO" value="591">Bolivia (+591)</option>
+        <option data-countryCode="BA" value="387">Bosnia Herzegovina (+387)</option>
+        <option data-countryCode="BW" value="267">Botswana (+267)</option>
+        <option data-countryCode="BR" value="55">Brazil (+55)</option>
+        <option data-countryCode="BN" value="673">Brunei (+673)</option>
+        <option data-countryCode="BG" value="359">Bulgaria (+359)</option>
+        <option data-countryCode="BF" value="226">Burkina Faso (+226)</option>
+        <option data-countryCode="BI" value="257">Burundi (+257)</option>
+        <option data-countryCode="KH" value="855">Cambodia (+855)</option>
+        <option data-countryCode="CM" value="237">Cameroon (+237)</option>
+        <option data-countryCode="CA" value="1">Canada (+1)</option>
+        <option data-countryCode="CV" value="238">Cape Verde Islands (+238)</option>
+        <option data-countryCode="KY" value="1345">Cayman Islands (+1345)</option>
+        <option data-countryCode="CF" value="236">Central African Republic (+236)</option>
+        <option data-countryCode="CL" value="56">Chile (+56)</option>
+        <option data-countryCode="CN" value="86">China (+86)</option>
+        <option data-countryCode="CO" value="57">Colombia (+57)</option>
+        <option data-countryCode="KM" value="269">Comoros (+269)</option>
+        <option data-countryCode="CG" value="242">Congo (+242)</option>
+        <option data-countryCode="CK" value="682">Cook Islands (+682)</option>
+        <option data-countryCode="CR" value="506">Costa Rica (+506)</option>
+        <option data-countryCode="HR" value="385">Croatia (+385)</option>
+        <option data-countryCode="CU" value="53">Cuba (+53)</option>
+        <option data-countryCode="CY" value="90392">Cyprus North (+90392)</option>
+        <option data-countryCode="CY" value="357">Cyprus South (+357)</option>
+        <option data-countryCode="CZ" value="42">Czech Republic (+42)</option>
+        <option data-countryCode="DK" value="45">Denmark (+45)</option>
+        <option data-countryCode="DJ" value="253">Djibouti (+253)</option>
+        <option data-countryCode="DM" value="1809">Dominica (+1809)</option>
+        <option data-countryCode="DO" value="1809">Dominican Republic (+1809)</option>
+        <option data-countryCode="EC" value="593">Ecuador (+593)</option>
+        <option data-countryCode="EG" value="20">Egypt (+20)</option>
+        <option data-countryCode="SV" value="503">El Salvador (+503)</option>
+        <option data-countryCode="GQ" value="240">Equatorial Guinea (+240)</option>
+        <option data-countryCode="ER" value="291">Eritrea (+291)</option>
+        <option data-countryCode="EE" value="372">Estonia (+372)</option>
+        <option data-countryCode="ET" value="251">Ethiopia (+251)</option>
+        <option data-countryCode="FK" value="500">Falkland Islands (+500)</option>
+        <option data-countryCode="FO" value="298">Faroe Islands (+298)</option>
+        <option data-countryCode="FJ" value="679">Fiji (+679)</option>
+        <option data-countryCode="FI" value="358">Finland (+358)</option>
+        <option data-countryCode="FR" value="33">France (+33)</option>
+        <option data-countryCode="GF" value="594">French Guiana (+594)</option>
+        <option data-countryCode="PF" value="689">French Polynesia (+689)</option>
+        <option data-countryCode="GA" value="241">Gabon (+241)</option>
+        <option data-countryCode="GM" value="220">Gambia (+220)</option>
+        <option data-countryCode="GE" value="7880">Georgia (+7880)</option>
+        <option data-countryCode="DE" value="49">Germany (+49)</option>
+        <option data-countryCode="GH" value="233">Ghana (+233)</option>
+        <option data-countryCode="GI" value="350">Gibraltar (+350)</option>
+        <option data-countryCode="GR" value="30">Greece (+30)</option>
+        <option data-countryCode="GL" value="299">Greenland (+299)</option>
+        <option data-countryCode="GD" value="1473">Grenada (+1473)</option>
+        <option data-countryCode="GP" value="590">Guadeloupe (+590)</option>
+        <option data-countryCode="GU" value="671">Guam (+671)</option>
+        <option data-countryCode="GT" value="502">Guatemala (+502)</option>
+        <option data-countryCode="GN" value="224">Guinea (+224)</option>
+        <option data-countryCode="GW" value="245">Guinea - Bissau (+245)</option>
+        <option data-countryCode="GY" value="592">Guyana (+592)</option>
+        <option data-countryCode="HT" value="509">Haiti (+509)</option>
+        <option data-countryCode="HN" value="504">Honduras (+504)</option>
+        <option data-countryCode="HK" value="852">Hong Kong (+852)</option>
+        <option data-countryCode="HU" value="36">Hungary (+36)</option>
+        <option data-countryCode="IS" value="354">Iceland (+354)</option>
+        <option data-countryCode="IN" value="91" selected>India (+91)</option>
+        <option data-countryCode="ID" value="62">Indonesia (+62)</option>
+        <option data-countryCode="IR" value="98">Iran (+98)</option>
+        <option data-countryCode="IQ" value="964">Iraq (+964)</option>
+        <option data-countryCode="IE" value="353">Ireland (+353)</option>
+        <option data-countryCode="IL" value="972">Israel (+972)</option>
+        <option data-countryCode="IT" value="39">Italy (+39)</option>
+        <option data-countryCode="JM" value="1876">Jamaica (+1876)</option>
+        <option data-countryCode="JP" value="81">Japan (+81)</option>
+        <option data-countryCode="JO" value="962">Jordan (+962)</option>
+        <option data-countryCode="KZ" value="7">Kazakhstan (+7)</option>
+        <option data-countryCode="KE" value="254">Kenya (+254)</option>
+        <option data-countryCode="KI" value="686">Kiribati (+686)</option>
+        <option data-countryCode="KP" value="850">Korea North (+850)</option>
+        <option data-countryCode="KR" value="82">Korea South (+82)</option>
+        <option data-countryCode="KW" value="965">Kuwait (+965)</option>
+        <option data-countryCode="KG" value="996">Kyrgyzstan (+996)</option>
+        <option data-countryCode="LA" value="856">Laos (+856)</option>
+        <option data-countryCode="LV" value="371">Latvia (+371)</option>
+        <option data-countryCode="LB" value="961">Lebanon (+961)</option>
+        <option data-countryCode="LS" value="266">Lesotho (+266)</option>
+        <option data-countryCode="LR" value="231">Liberia (+231)</option>
+        <option data-countryCode="LY" value="218">Libya (+218)</option>
+        <option data-countryCode="LI" value="417">Liechtenstein (+417)</option>
+        <option data-countryCode="LT" value="370">Lithuania (+370)</option>
+        <option data-countryCode="LU" value="352">Luxembourg (+352)</option>
+        <option data-countryCode="MO" value="853">Macao (+853)</option>
+        <option data-countryCode="MK" value="389">Macedonia (+389)</option>
+        <option data-countryCode="MG" value="261">Madagascar (+261)</option>
+        <option data-countryCode="MW" value="265">Malawi (+265)</option>
+        <option data-countryCode="MY" value="60">Malaysia (+60)</option>
+        <option data-countryCode="MV" value="960">Maldives (+960)</option>
+        <option data-countryCode="ML" value="223">Mali (+223)</option>
+        <option data-countryCode="MT" value="356">Malta (+356)</option>
+        <option data-countryCode="MH" value="692">Marshall Islands (+692)</option>
+        <option data-countryCode="MQ" value="596">Martinique (+596)</option>
+        <option data-countryCode="MR" value="222">Mauritania (+222)</option>
+        <option data-countryCode="YT" value="269">Mayotte (+269)</option>
+        <option data-countryCode="MX" value="52">Mexico (+52)</option>
+        <option data-countryCode="FM" value="691">Micronesia (+691)</option>
+        <option data-countryCode="MD" value="373">Moldova (+373)</option>
+        <option data-countryCode="MC" value="377">Monaco (+377)</option>
+        <option data-countryCode="MN" value="976">Mongolia (+976)</option>
+        <option data-countryCode="MS" value="1664">Montserrat (+1664)</option>
+        <option data-countryCode="MA" value="212">Morocco (+212)</option>
+        <option data-countryCode="MZ" value="258">Mozambique (+258)</option>
+        <option data-countryCode="MN" value="95">Myanmar (+95)</option>
+        <option data-countryCode="NA" value="264">Namibia (+264)</option>
+        <option data-countryCode="NR" value="674">Nauru (+674)</option>
+        <option data-countryCode="NP" value="977">Nepal (+977)</option>
+        <option data-countryCode="NL" value="31">Netherlands (+31)</option>
+        <option data-countryCode="NC" value="687">New Caledonia (+687)</option>
+        <option data-countryCode="NZ" value="64">New Zealand (+64)</option>
+        <option data-countryCode="NI" value="505">Nicaragua (+505)</option>
+        <option data-countryCode="NE" value="227">Niger (+227)</option>
+        <option data-countryCode="NG" value="234">Nigeria (+234)</option>
+        <option data-countryCode="NU" value="683">Niue (+683)</option>
+        <option data-countryCode="NF" value="672">Norfolk Islands (+672)</option>
+        <option data-countryCode="NP" value="670">Northern Marianas (+670)</option>
+        <option data-countryCode="NO" value="47">Norway (+47)</option>
+        <option data-countryCode="OM" value="968">Oman (+968)</option>
+        <option data-countryCode="PW" value="680">Palau (+680)</option>
+        <option data-countryCode="PA" value="507">Panama (+507)</option>
+        <option data-countryCode="PG" value="675">Papua New Guinea (+675)</option>
+        <option data-countryCode="PY" value="595">Paraguay (+595)</option>
+        <option data-countryCode="PE" value="51">Peru (+51)</option>
+        <option data-countryCode="PH" value="63">Philippines (+63)</option>
+        <option data-countryCode="PL" value="48">Poland (+48)</option>
+        <option data-countryCode="PT" value="351">Portugal (+351)</option>
+        <option data-countryCode="PR" value="1787">Puerto Rico (+1787)</option>
+        <option data-countryCode="QA" value="974">Qatar (+974)</option>
+        <option data-countryCode="RE" value="262">Reunion (+262)</option>
+        <option data-countryCode="RO" value="40">Romania (+40)</option>
+        <option data-countryCode="RU" value="7">Russia (+7)</option>
+        <option data-countryCode="RW" value="250">Rwanda (+250)</option>
+        <option data-countryCode="SM" value="378">San Marino (+378)</option>
+        <option data-countryCode="ST" value="239">Sao Tome &amp; Principe (+239)</option>
+        <option data-countryCode="SA" value="966">Saudi Arabia (+966)</option>
+        <option data-countryCode="SN" value="221">Senegal (+221)</option>
+        <option data-countryCode="CS" value="381">Serbia (+381)</option>
+        <option data-countryCode="SC" value="248">Seychelles (+248)</option>
+        <option data-countryCode="SL" value="232">Sierra Leone (+232)</option>
+        <option data-countryCode="SG" value="65">Singapore (+65)</option>
+        <option data-countryCode="SK" value="421">Slovak Republic (+421)</option>
+        <option data-countryCode="SI" value="386">Slovenia (+386)</option>
+        <option data-countryCode="SB" value="677">Solomon Islands (+677)</option>
+        <option data-countryCode="SO" value="252">Somalia (+252)</option>
+        <option data-countryCode="ZA" value="27">South Africa (+27)</option>
+        <option data-countryCode="ES" value="34">Spain (+34)</option>
+        <option data-countryCode="LK" value="94">Sri Lanka (+94)</option>
+        <option data-countryCode="SH" value="290">St. Helena (+290)</option>
+        <option data-countryCode="KN" value="1869">St. Kitts (+1869)</option>
+        <option data-countryCode="SC" value="1758">St. Lucia (+1758)</option>
+        <option data-countryCode="SD" value="249">Sudan (+249)</option>
+        <option data-countryCode="SR" value="597">Suriname (+597)</option>
+        <option data-countryCode="SZ" value="268">Swaziland (+268)</option>
+        <option data-countryCode="SE" value="46">Sweden (+46)</option>
+        <option data-countryCode="CH" value="41">Switzerland (+41)</option>
+        <option data-countryCode="SI" value="963">Syria (+963)</option>
+        <option data-countryCode="TW" value="886">Taiwan (+886)</option>
+        <option data-countryCode="TJ" value="7">Tajikstan (+7)</option>
+        <option data-countryCode="TH" value="66">Thailand (+66)</option>
+        <option data-countryCode="TG" value="228">Togo (+228)</option>
+        <option data-countryCode="TO" value="676">Tonga (+676)</option>
+        <option data-countryCode="TT" value="1868">Trinidad &amp; Tobago (+1868)</option>
+        <option data-countryCode="TN" value="216">Tunisia (+216)</option>
+        <option data-countryCode="TR" value="90">Turkey (+90)</option>
+        <option data-countryCode="TM" value="7">Turkmenistan (+7)</option>
+        <option data-countryCode="TM" value="993">Turkmenistan (+993)</option>
+        <option data-countryCode="TC" value="1649">Turks &amp; Caicos Islands (+1649)</option>
+        <option data-countryCode="TV" value="688">Tuvalu (+688)</option>
+        <option data-countryCode="UG" value="256">Uganda (+256)</option>
+        <option data-countryCode="GB" value="44">UK (+44)</option>
+        <option data-countryCode="UA" value="380">Ukraine (+380)</option>
+        <option data-countryCode="AE" value="971">United Arab Emirates (+971)</option>
+        <option data-countryCode="UY" value="598">Uruguay (+598)</option>
+        <option data-countryCode="US" value="1">USA (+1)</option>
+        <option data-countryCode="UZ" value="7">Uzbekistan (+7)</option>
+        <option data-countryCode="VU" value="678">Vanuatu (+678)</option>
+        <option data-countryCode="VA" value="379">Vatican City (+379)</option>
+        <option data-countryCode="VE" value="58">Venezuela (+58)</option>
+        <option data-countryCode="VN" value="84">Vietnam (+84)</option>
+        <option data-countryCode="VG" value="84">Virgin Islands - British (+1284)</option>
+        <option data-countryCode="VI" value="84">Virgin Islands - US (+1340)</option>
+        <option data-countryCode="WF" value="681">Wallis &amp; Futuna (+681)</option>
+        <option data-countryCode="YE" value="969">Yemen (North)(+969)</option>
+        <option data-countryCode="YE" value="967">Yemen (South)(+967)</option>
+        <option data-countryCode="ZM" value="260">Zambia (+260)</option>
+        <option data-countryCode="ZW" value="263">Zimbabwe (+263)</option>
+    </select>
+  )
+}
+
+export default CountryCode
+</file>
+
+<file path="client/src/components/login-register/login-register.css">
+.signin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 14px;
+}
+.signin .logo {
+  width: 103px;
+}
+.signin .logo img {
+  width: 100%;
+}
+.signin .form-details {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 20px 26px;
+  width: 350px;
+  margin-top: 18px;
+  margin-bottom: 22px;
+}
+.signin .form-details h3 {
+  margin-bottom: 0px;
+}
+.signin .form-details form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.signin .form-details form label {
+  font-size: 13px;
+  font-weight: 700;
+  margin-top: 15px;
+  margin-left: 2px;
+  margin-bottom: 1px;
+}
+.signin .form-details form input {
+  border: 1px solid #aaa;
+  border-radius: 3px;
+  height: 31px;
+  padding-left: 7px;
+  font-size: 13px;
+}
+.signin .form-details form input:focus {
+  outline: none;
+  box-shadow: 0 0 7px #ffa319;
+  border: 1px solid #CA8034;
+}
+.signin .form-details form button {
+  margin-top: 20px;
+  border: 1px solid #666;
+  border-radius: 3px;
+  height: 31px;
+  font-size: 13px;
+  background: linear-gradient(to top, #eebe45, #ffe39b);
+}
+.signin .form-details form button:hover {
+  background: linear-gradient(to top, #ecb52b, #fcda85);
+}
+.signin .form-details .mobile-number {
+  width: 100%;
+  display: flex;
+}
+.signin .form-details .mobile-number .country-code {
+  width: 100px;
+  font-size: 13px;
+  margin-right: 10px;
+  border: 1px solid #aaa;
+  border-radius: 3px;
+  height: 31px;
+  padding-left: 7px;
+  background: linear-gradient(to top, #e7e7e7, #f7f7f7);
+  cursor: pointer;
+}
+.signin .form-details .mobile-number input {
+  width: 100%;
+}
+
+.signin .new-to-amazon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 350px;
+}
+.signin .new-to-amazon p {
+  font-size: 12px;
+  width: 100%;
+  color: #777;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.signin .new-to-amazon p:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  height: 1px;
+  width: 100%;
+  background-color: #e7e7e7;
+}
+.signin .new-to-amazon p span {
+  background-color: #fff;
+  padding: 0 5px;
+  position: relative;
+  z-index: 2;
+}
+.signin .new-to-amazon a {
+  width: 100%;
+  margin-top: -5px;
+}
+.signin .new-to-amazon button {
+  width: 100%;
+  font-size: 13px;
+  border: 1px solid #8D9096;
+  border-radius: 3px;
+  height: 31px;
+  font-size: 13px;
+  background: linear-gradient(to top, #e4e6e9, #FCFCFD);
+}
+.signin .new-to-amazon button:hover {
+  background: linear-gradient(to top, #d1d3d6, #e8e8e9);
+}
+
+.signup .form-details form {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #ddd;
+}
+.signin .already-have-account {
+  padding-top: 25px;
+}
+.signin .already-have-account p {
+  font-size: 13px;
+}
+.signin .already-have-account p a {
+  text-decoration: none;
+  color: #248FC1;
+}
+.signin .already-have-account p a:hover {
+  text-decoration: underline;
+  color: #D14A04;
+}
+.signin .already-have-account p a #arrow-right {
+  font-size: 16px;
+  margin-top: -2px;
+  margin-left: -3px;
+} 
+
+.signin .alert {
+  display: none;
+  width: 350px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  font-family: 'Amazon Ember', sans-serif !important;
+  color: #111;
+  font-size: 14px;
+}
+.signin .alert .alert-title {
+  font-family: 'Amazon Ember', sans-serif !important;
+  font-size: 17px;
+}
+.signin .alert ul {
+  margin-left: -40px;
+}
+.signin .alert .MuiAlert-message {
+  padding-bottom: 0px !important;
+}
+.signin .error-alert {
+  border-color: #c40000;
+  box-shadow: inset 0px 0px 5px #f1b7b7;
+}
+.signin .error-alert .alert-title, .signin .error-alert .MuiAlert-icon {
+  color: #c40000;
+}
+.signin .success-alert {
+  border-color: #5EB762;
+  box-shadow: inset 0px 0px 5px #b2e0b5;
+}
+
+@media screen and (max-width: 400px) {
+  .signin .form-details {
+    width: 90%;
+  }
+  .signin .new-to-amazon {
+    width: 90%;
+  }
+}
+</file>
+
+<file path="client/src/components/login-register/SignIn.jsx">
+import React, { useState } from 'react';
+import './login-register.css';
+import { NavLink, useNavigate } from 'react-router-dom';
+import Alert from '@mui/material/Alert/Alert';
+import AlertTitle from '@mui/material/AlertTitle/AlertTitle';
+import axios from 'axios';
+
+const SignIn = () => {
+
+  const [signInInfo, setSignInInfo] = useState({
+    email: "",
+    password: ""
+  });
+
+  function formUpdate(e) {
+    const {name, value} = e.target;
+    
+    setSignInInfo(function() {
+      return {
+        ...signInInfo,
+        [name]:value
+      }
+    })
+  }
+
+  const [errorMessage, setErrorMessage] = useState([]);
+  const navigate = useNavigate();
+
+  async function sendData(e) {
+    e.preventDefault();
+    const { email, password } = signInInfo; 
+
+    try {
+      const res = await axios.post("http://localhost:8000/api/login", {
+        email, password
+      }, {
+        headers: {
+          'Access-Control-Allow-Origin': 'http://localhost:3000',
+          'Content-Type': 'application/json'
+        },
+        withCredentials: true // Cookie credentials (tokens)
+      });
+
+      setSignInInfo(function() {
+        return {
+          ...signInInfo,
+          email: "", password: ""
+        }
+      });
+
+      document.querySelector(".error-alert").style.display = "none";
+      document.querySelector(".success-alert").style.display = "flex";
+
+      setTimeout(function() {
+        navigate('/');
+      }, 1000)
+
+    } catch (error) {
+      try {
+        document.querySelector(".success-alert").style.display = "none";
+        document.querySelector(".error-alert").style.display = "flex";
+        const errors = error.response.data.message;
+        const temp = [];
+        
+        for (let i = 0; i < errors.length; i++) {
+          temp.push(errors[i].msg);
+        }
+        setErrorMessage(temp);
+      } catch(err) {
+        console.log(error)
+      }
+    }
+  }
+
+
+  return (
+    <div className='signin'>
+      <NavLink to='/' className='logo'>
+        <img src='images/logo-dark.png' alt='logo' />
+      </NavLink>
+
+      <Alert variant="outlined" severity="warning" className='alert error-alert'>
+        <AlertTitle className='alert-title'>There were some errors</AlertTitle>
+        <ul>
+          { 
+            errorMessage.map(function(error, index) {
+              return (
+                <li key={index}> {error} </li>
+              )
+            })
+          }
+        </ul>
+      </Alert>
+
+      <Alert variant="outlined" className='alert success-alert'>Logged-in successfully!</Alert>
+
+      <div className='form-details'>
+        <h3>Sign-In</h3>
+        <form method='post' action='/' onSubmit={ sendData }>
+          <label htmlFor='email'>Email</label>
+          <input type='email' name='email' id='email' placeholder='Email Address' onChange={ formUpdate } value={ signInInfo.email } required />
+          <label htmlFor='password'>Password</label>
+          <input type='password' name='password' id='password' placeholder='Password' onChange={ formUpdate } value={ signInInfo.password } required />
+          <button type='submit' id='submit'>Continue</button>
+        </form>
+      </div>
+
+      <div className='new-to-amazon'>
+        <p><span>New to Amazon?</span></p>
+        <NavLink to='/register'>
+          <button>Create your Amazon account</button>
+        </NavLink>
+      </div>
+    </div>
+  )
+}
+
+export default SignIn;
+</file>
+
+<file path="client/src/components/login-register/SignUp.jsx">
+import React, { useState } from 'react';
+import axios from 'axios';
+import CountryCode from './CountryCode';
+import './login-register.css';
+import ArrowRightIcon from '@mui/icons-material/ArrowRight';
+import { NavLink, useNavigate } from 'react-router-dom';
+import Alert from '@mui/material/Alert/Alert';
+import AlertTitle from '@mui/material/AlertTitle/AlertTitle';
+
+const SignUp = () => {
+
+  const [signUpInfo, setSignUpInfo] = useState({
+    name: "",
+    number: "",
+    email: "",
+    password: "",
+    confirmPassword: ""
+  });
+  
+  function formUpdate(e) {
+    const {name, value} = e.target;
+
+    setSignUpInfo(function() {
+      return {
+        ...signUpInfo,
+        [name]: value
+      }
+    })
+  }
+
+  const [errorMessage, setErrorMessage] = useState([]);
+  const navigate = useNavigate();
+
+  async function sendData(e) {
+    e.preventDefault();
+    const { name, number, email, password, confirmPassword } = signUpInfo;
+
+    try {
+      const res = await axios.post('http://localhost:8000/api/register', { 
+        name, number, email, password, confirmPassword
+      }, {
+        headers: {
+          'Content-Type': 'application/json'
+        }
+      });
+
+      setSignUpInfo(function() {
+        return {
+          ...signUpInfo,
+          name: "", number: "", email: "", password: "", confirmPassword: ""
+        }
+      });
+
+      document.querySelector(".error-alert").style.display = "none";
+      document.querySelector(".success-alert").style.display = "flex";
+
+      setTimeout(function() {
+        navigate('/login');
+      }, 1000)
+
+    } catch(error) {
+      if(error.response) {
+        document.querySelector(".success-alert").style.display = "none";
+        document.querySelector(".error-alert").style.display = "flex";
+        const errors = error.response.data.message;
+        const temp = [];
+        
+        for (let i = 0; i < errors.length; i++) {
+          temp.push(errors[i].msg)
+        }
+        setErrorMessage(temp);
+      }
+    }
+
+  }
+
+  return (
+    <div className='signin signup'>
+      <NavLink to='/' className='logo'>
+        <img src='images/logo-dark.png' alt='logo' />
+      </NavLink>
+
+      <Alert variant="outlined" severity="warning" className='alert error-alert'>
+        <AlertTitle className='alert-title'>There were some errors</AlertTitle>
+        <ul>
+          { 
+            errorMessage.map(function(error, index) {
+              return (
+                <li key={index}> {error} </li>
+              )
+            })
+          }
+        </ul>
+      </Alert>
+
+      <Alert variant="outlined" className='alert success-alert'>Registered successfully! Please <NavLink to='/login'>login</NavLink></Alert>
+   
+      <div className='form-details'>
+        <h3>Create Account</h3>
+        <form method='POST' onSubmit={ sendData }>
+          <label htmlFor='name'>Your name</label>
+          <input type='text' name='name' id='name' placeholder='First and last name' onChange={ formUpdate } value={ signUpInfo.name } required />
+          <label htmlFor='number'>Mobile number</label>
+          <div className='mobile-number'>
+            <CountryCode />
+            <input type='text' name='number' id='number' placeholder='Mobile number' onChange={ formUpdate } value={ signUpInfo.number } required />
+          </div>
+          <label htmlFor='email'>Email</label>
+          <input type='email' name='email' id='email' placeholder='Email Address' onChange={ formUpdate } value={ signUpInfo.email } required />
+          <label htmlFor='password'>Password</label>
+          <input type='password' name='password' id='password' placeholder='Password (At least 6 characters)' onChange={ formUpdate } value={ signUpInfo.password } required />
+          <label htmlFor='confirmPassword'>Confirm Password</label>
+          <input type='password' name='confirmPassword' id='confirmPassword' placeholder='Confirm Password' onChange={ formUpdate } value={ signUpInfo.confirmPassword } required />
+          <button type='submit' id='submit'>Continue</button>
+        </form>
+
+        <div className='already-have-account'>
+          <p>Already have an account? <NavLink to="/login">Sign in<ArrowRightIcon id='arrow-right' /></NavLink></p>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default SignUp;
+</file>
+
+<file path="client/src/components/product/product.css">
+.product-section {
+  display: flex;
+  margin-left: 70px;
+  margin-top: 30px;
+}
+.product-section > * {
+  padding: 20px;
+}
+.product-section .divider {
+  border-bottom: 1px solid #e4e3e3;
+  margin: 15px 0;
+  width: 100%;
+}
+.product-section .left {
+  width: 70%;
+}
+.product-section .middle {
+  width: 80%;
+}
+.product-section .right {
+  width: 500px;
+}
+
+.product-section .left img {
+  width: 100%;
+}
+.product-section .middle .product-details h4 {
+  font-weight: 500;
+}
+.product-section .middle .product-details .price {
+  font-size: 24px;
+  color: #d61c45;
+}
+.product-section span {
+  font-size: 28px;
+  color: #000
+}
+.product-section span .sup {
+  font-size: 13px;
+  position: relative;
+  top: -10px;
+}
+.product-section .middle .product-details .mrp {
+  color: #565959;
+  font-size: 12px;
+}
+.product-section .middle .product-details .taxes {
+  margin-top: 10px;
+  font-size: 14px;
+}
+.product-section .middle .about-product h6 {
+  font-weight: 600;
+}
+.product-section .middle .about-product ul {
+  margin-left: -14px;
+  font-size: 14px;
+}
+.product-section .right {
+  border: 1px solid #ddd;
+  border-radius: 9px;
+  margin: 0 20px 0 5px;
+  height: 100%;
+}
+.product-section .right p {
+  font-size: 14px;
+  font-weight: 600;
+}
+.product-section .right p span {
+  color: #0071A5;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.product-section .right p span:hover {
+  color: #D16F46;
+  text-decoration: underline;
+}
+.product-section .right button {
+  width: 100%;
+  margin: 4px 0;
+  border: none;
+  font-size: 13px;
+  background-color: #FFD814;
+  height: 32px;
+  border-radius: 16px;
+  box-shadow: 0 2px 5px #ddd;
+  cursor: pointer;
+}
+.product-section .right button:hover {
+  background-color: #F7CA00;
+}
+.product-section .right button:nth-child(4) {
+  background-color: #FFA41C;
+}
+.product-section .right button:nth-child(4):hover {
+  background-color: #FA8900;
+}
+
+@media screen and (max-width: 992px) {
+  .product-section {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0px;
+  }
+  .product-section .left {
+    width: 50%;
+  }
+  .product-section .middle {
+    width: 80%;
+  }
+  .product-section .right {
+    margin: 0;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .product-section .left {
+    width: 90%;
+  }
+  .product-section .middle {
+    width: 90%;
+  }
+  .product-section .right {
+    width: 250px;
+  }
+}
+</file>
+
+<file path="client/src/components/product/Product.jsx">
+import React, { useEffect, useState } from 'react';
+import axios from 'axios';
+import './product.css';
+import { useParams, useNavigate } from 'react-router-dom';
+import Loader from '../loader/Loader';
+
+const Product = () => {
+
+  // Loader
+  const [isLoading, setIsLoading] = useState(true);
+  
+  const {id} = useParams("");
+
+  // Fetching individual product from API
+  const [product, setProduct] = useState();
+
+  useEffect(function() {
+    async function fetchSingleProduct() {
+      try {
+        const res = await axios.get('http://localhost:8000/api/product/' + id);
+        setProduct(res.data);
+        setIsLoading(false);
+      } catch (error) {
+        console.log(error);
+      }
+    }
+
+    fetchSingleProduct();
+  }, [])
+
+  // To navigate to a diff page
+  const navigate = useNavigate();
+  // Add to cart
+  async function addToCart(id) {
+    try {
+      const res = await axios.post('http://localhost:8000/api/addtocart/' + id, {
+        product
+      }, {
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        withCredentials: true
+      });
+      
+    } catch (error) {
+      if (error.response.data.message === "No token provided") {
+        navigate('/login'); // Go to login if there's no cookie
+      }
+    }
+  }
+
+  const [userData, setUserData] = useState();
+  async function fetchUser() {
+    try {
+      const res = await axios.get('http://localhost:8000/api/getAuthUser', {withCredentials: true});
+      if (res) {
+        setUserData(res.data);
+      }
+    } catch (error) {
+      if (error.response.data.message == "No token provided") {
+        navigate('/login');
+      } else {
+        console.log(error);
+      }
+    }
+  }
+
+  // Buy now
+  function loadRazorpay() {
+    try {
+
+      fetchUser();
+
+      const script = document.createElement("script");
+      script.src="https://checkout.razorpay.com/v1/checkout.js";
+
+      script.onerror = () => {
+        alert("Razorpay SDK failed to load. Try again later");
+      };
+      script.onload = async () => {
+        try {
+
+          const orderAmount = product.accValue;
+          const orderedProducts = {
+            id: product.id,
+            name: product.name,
+            qty: 1,
+            img: product.url
+          }
+
+          const res = await axios.post("http://localhost:8000/api/create-order", {
+            amount: orderAmount + '00'
+          }, {
+            withCredentials: true
+          })
+          
+          const { id, amount, currency } = res.data.order;
+          const { key } = await axios.get("http://localhost:8000/api/get-razorpay-key");
+
+          var today = new Date();
+          var date = today.getDate()+'/'+(today.getMonth()+1)+'/'+today.getFullYear();
+
+          const options = {
+            key: key,
+            amount: amount.toString(),
+            currency: currency,
+            order_id: id,
+            name: product.name,
+            handler: async function(response) {
+              const result = await axios.post("http://localhost:8000/api/pay-order", {
+                orderedProducts: orderedProducts,
+                dateOrdered: date,
+                amount: amount,
+                razorpayPaymentId: response.razorpay_payment_id,
+                razorpayOrderId: response.razorpay_order_id,
+                razorpaySignature: response.razorpay_signature
+              }, {
+                withCredentials: true
+              })
+              navigate("/orders");
+            },
+            prefill: {
+              name: userData.name,
+              email: userData.email,
+              contact: '+91' + userData.number
+            },
+            theme: {
+              color: '#1976D2'
+            }
+          };
+
+          const paymentObject = new window.Razorpay(options);
+          paymentObject.open();
+
+          
+
+        } catch (error) {
+          console.log(error);
+        }
+      };
+
+      document.body.appendChild(script);
+    }
+    catch (error) {
+      if (error.response.data.message === "No token provided") {
+        navigate('/login'); // Go to login if there's no cookie
+      }
+    }
+  }
+
+  const today = new Date();
+  today.setDate(today.getDate() + 3);
+  const dayArr = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+  const monthArr = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+  const day = dayArr[today.getDay()];
+  const date = today.getDate();
+  const month = monthArr[today.getMonth()];
+  const deliveryDate = day + ", " + date + " " + month;
+
+  if (product) {
+    return (
+      <div className='product-section'>
+        <div className='left'>
+          <img src={ product.resUrl }></img>
+        </div>
+        <div className='middle'>
+          <div className='product-details'>
+            <h4>{ product.name }</h4>
+            <div className='divider'></div>
+            <div className='price'>
+              { product.discount } 
+              <span>
+                <span className='sup'> ₹</span>
+                { product.value }
+                <span className='sup'>00</span>
+              </span>
+            </div>
+            <div className='mrp'>M.R.P.: <strike>{ product.mrp }</strike></div>
+            <p className='taxes'>Inclusive of all taxes</p>
+          </div>
+          <div className='about-product'>
+            <h6>About this item</h6>
+            <ul>
+              { product.points.map(function(point, index) {
+                return (
+                  <li key={index}>{point}</li>
+                )
+              }) }
+            </ul>
+          </div>
+        </div>
+        <div className='right'>
+          <h3><span><span className='sup'>₹</span>{ product.value }<span className='sup'>00</span></span></h3>
+          <p><span>FREE delivery:</span> {deliveryDate}</p>
+          <button id="addtocart-btn" onClick={ () => addToCart(product.id) }>Add to Cart</button>
+          <button onClick={loadRazorpay} >Buy Now</button>
+        </div>
+      </div>
+    )
+  } else {
+    return (
+      <div>
+        { isLoading ? <Loader /> : "" }
+      </div>
+    )
+  }
+}
+
+export default Product;
+</file>
+
+<file path="client/src/components/profile/NameBanner.jsx">
+import React from 'react';
+import './profile.css';
+
+const NameBanner = (props) => {
+  return (
+    <div>
+      <div className='banner'>
+        <svg xmlns="http://www.w3.org/2000/svg" width="1500" height="600" viewBox="0 0 1500 600" preserveAspectRatio="none">
+        <defs>
+          <linearGradient id="myGradient" gradientTransform="rotate(45)">
+            <stop offset="5%"  stop-color="#60a1e2" />
+            <stop offset="95%" stop-color="#166dc4" />
+          </linearGradient>
+        </defs>
+        <path d="M 0,0
+            L 0,300
+            Q 750,600 1500,300
+            L 1500, 0
+            Z" fill="url('#myGradient')" />
+        </svg>
+
+        <h2>{props.name}</h2>
+      </div>
+    </div>
+  )
+}
+
+export default NameBanner;
+</file>
+
+<file path="client/src/components/profile/OrderedProduct.jsx">
+import React from 'react';
+import "./profile.css";
+import { NavLink } from 'react-router-dom';
+
+const OrderedProduct = (props) => {
+  const product = props.product;
+  let path="/product/" + product.id;
+  return (
+    <div className='order-bottom-item row'>
+      <div className='col-4 col-sm-3 col-md-2'>
+        <img src={ product.img } />
+      </div>
+      <div className='col-8 col-sm-9 col-md-10'>
+        <h6><NavLink to={ path }>{ product.name }</NavLink></h6>
+        <p>Qty: { product.qty }</p>
+      </div>
+    </div>
+  )
+}
+
+export default OrderedProduct;
+</file>
+
+<file path="client/src/components/profile/Orders.jsx">
+import React, { useEffect, useState } from 'react';
+import NameBanner from './NameBanner';
+import { useNavigate } from 'react-router-dom';
+import './profile.css';
+import axios from 'axios';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+import OrderTop from './OrderTop';
+import OrderedProduct from './OrderedProduct';
+import Loader from '../loader/Loader';
+
+const Orders = () => {
+
+  const [isLoading, setIsLoading] = useState(true);
+  const [userData, setUserData] = useState();
+
+  const navigate = useNavigate();
+
+  useEffect(function() {
+    async function fetchUser() {
+      try {
+        const res = await axios.get("http://localhost:8000/api/getAuthUser", {
+          withCredentials: true
+        })
+  
+        if (res) {
+          setUserData(res.data);
+          setIsLoading(false);
+        }
+      } catch (error) {
+        if (error.response.data.message === "No token provided") {
+          navigate('/login');
+        } else {
+          console.log(error);
+        }
+      }
+    }
+
+    fetchUser();
+  }, []);
+  
+  if (userData) {
+
+    const name = userData.name;
+    const fname = name.substring(0, name.indexOf(' ')) + "'s Orders";
+
+    const orders = userData.orders;
+    orders.reverse();
+
+    return (
+      <>
+        { 
+          isLoading ? <Loader /> :
+          <div className='profile'>
+            <NameBanner name={fname} />
+            <div className='order-list'>
+              { orders.map((order, index) => {
+                let orderItem = order.orderInfo;
+                let orderedProducts = orderItem.products;
+
+                // console.log("---NEW ORDER---");
+                // console.log(orderedProducts);
+
+                return (
+                  <div className='order'>
+                    <OrderTop order={ orderItem } />
+                    <div className='order-bottom'>
+                      { orderedProducts ? orderedProducts.map((product, index) => {
+                        // console.log(product);
+                          return <OrderedProduct key={index} product={product} />
+                        }) : ""
+                      } 
+                    </div>
+                  </div>
+                )
+              })}
+              
+            </div>
+          </div>
+        }
+      </>
+    )
+  }
+  
+}
+
+export default Orders;
+</file>
+
+<file path="client/src/components/profile/OrderTop.jsx">
+import React from 'react';
+import './profile.css';
+
+const OrderTop = (props) => {
+  let order = props.order;
+  let date = order.date;
+
+  let monthArr = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+  let slash = 0;
+  let start = 0;
+  let monthStr = '';
+  let day = '';
+  let year = ''
+
+  for (let i = 0; i < date.length; i++) {
+    if (date[i] === '/') {
+      if (slash === 0) {
+        day = date.substring(start, i);
+        start = i + 1;
+        slash++;
+      } else if (slash === 1) {
+        monthStr = date.substring(start, i);
+        start = i + 1;
+        slash++;
+      }
+    } else if (slash === 2) {
+      year = date.substring(start, date.length);
+    }
+  }
+
+  let month = monthArr[parseInt(start) + 1];
+  let fullDate = day + " " + month + " " + year;
+
+  let amount = order.amount.toString();  
+  amount = amount.substring(0, amount.length - 2);
+  let lastThree = amount.substring(amount.length-3);
+  let otherNumbers = amount.substring(0,amount.length-3);
+  if(otherNumbers != '')
+    lastThree = ',' + lastThree;
+  amount = otherNumbers.replace(/\B(?=(\d{2})+(?!\d))/g, ",") + lastThree;
+
+  return (
+    <div>
+      <div className='order-top row'>
+        <div className='col-6 col-md-3 col-lg-2'>
+          <h6 className='order-top-details'>Order Placed</h6>
+          <p>{ fullDate }</p>
+        </div>
+        <div className='col-6 col-md-3 col-lg-2'>
+          <h6 className='order-top-details'>Total</h6>
+          <p>{ "₹" + amount + ".00" }</p>
+        </div>
+        <div className='col-12 col-md-6 col-lg-8'>
+          <h6 className='order-id'>{ order.razorpay.orderId }</h6>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default OrderTop;
+</file>
+
+<file path="client/src/components/profile/profile.css">
+.profile .banner {
+  position:relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profile .banner svg {
+  width: 100%;
+  height: 50vh;
+  position: relative;
+}
+.profile .banner h2 {
+  color: #fff;
+  position: absolute;
+  top: 26%;
+  font-size: 40px;
+}
+
+.profile .user-details {
+  width: 40%;
+  margin: 0 auto;
+  margin-top: -30px;
+  margin-bottom: 40px;
+}
+.profile .user-details .user-detail {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+  display: flex;
+}
+.profile .user-details .user-detail .icon {
+  width: 50px;
+}
+.profile .user-details .user-detail h5 {
+  margin: 0;
+}
+.profile .user-details .user-detail:hover .icon {
+  color: #1976D2;
+}
+
+@media screen and (max-width: 1200px) {
+  .profile .user-details {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .profile .user-details {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .profile .banner svg {
+    height: 30vh;
+  }
+  .profile .banner h2 {
+    font-size: 30px;
+  }
+  .profile .user-details {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .profile .banner svg {
+    height: 20vh;
+  }
+  .profile .banner h2 {
+    font-size: 20px;
+  }
+  .profile .user-details {
+    width: 90%;
+    margin-top: -10px;
+  }
+  .profile .user-details .icon {
+    font-size: 20px;
+    margin-left: -10px;
+    margin-right: -5px;
+  }
+  .profile .user-details h5 {
+    font-size: 16px;
+  }
+}
+
+.profile .order-list {
+  width: 900px;
+  margin: 0 auto;
+}
+.profile .order-list .order {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #D5D9D9;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.profile .order-list .order:last-child {
+  margin-bottom: 50px;
+}
+.profile .order-list .order .order-top {
+  background-color: #F0F2F2;
+  padding: 15px 20px;
+  border-bottom: 1px solid #D5D9D9;
+}
+.profile .order-list .order .order-top h6 {
+  color: #565959;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 0;
+  line-height: 16px;
+}
+.profile .order-list .order .order-top .order-top-details {
+  text-transform: uppercase;
+}
+.profile .order-list .order .order-top .order-id {
+  text-align: right;
+}
+.profile .order-list .order .order-top p {
+  color: #565959;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.profile .order-list .order .order-bottom {
+  padding: 20px;
+}
+.profile .order-list .order .order-bottom .order-bottom-item {
+  margin-bottom: 15px;
+}
+.profile .order-list .order .order-bottom .order-bottom-item:last-child {
+  margin-bottom: 0px;
+}
+.profile .order-list .order .order-bottom .order-bottom-item img {
+  width: 100%;
+}
+.profile .order-list .order .order-bottom .order-bottom-item h6 {
+  font-size: 14px;
+}
+.profile .order-list .order .order-bottom .order-bottom-item h6 a {
+  color: #007185;
+  text-decoration: none;
+}
+.profile .order-list .order .order-bottom .order-bottom-item h6 a:hover {
+  color: #D16F46;
+  text-decoration: underline;
+}
+.profile .order-list .order .order-bottom .order-bottom-item p {
+  font-size: 13px;
+  color: #555;
+}
+
+@media screen and (max-width: 991px) {
+  .profile .order-list {
+    width: 700px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .profile .order-list {
+    width: 500px;
+  }
+  .profile .order-list .order .order-top .order-id {
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .profile .order-list {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+</file>
+
+<file path="client/src/components/profile/Profile.jsx">
+import React, { useEffect, useState } from 'react';
+import NameBanner from './NameBanner';
+import UserDetails from './UserDetails';
+import { useNavigate } from 'react-router-dom';
+import './profile.css';
+import axios from 'axios';
+import Loader from '../loader/Loader';
+
+const Profile = () => {
+
+  const [isLoading, setIsLoading] = useState(true);
+  const [userData, setUserData] = useState();
+
+  const navigate = useNavigate();
+
+  useEffect(function() {
+    async function fetchUser() {
+      try {
+        const res = await axios.get("http://localhost:8000/api/getAuthUser", {
+          withCredentials: true
+        })
+  
+        if (res) {
+          setUserData(res.data);
+          setIsLoading(false);
+        }
+      } catch (error) {
+        if (error.response.data.message === "No token provided") {
+          navigate('/login');
+        } else {
+          console.log(error);
+        }
+      }
+    }
+
+    fetchUser();
+  }, []);
+
+  if (userData) {
+
+    const name = userData.name;
+    const fname = name.substring(0, name.indexOf(' ')) + "'s Account";
+
+    return (
+      <>
+        {
+          isLoading ? <Loader /> :
+          <div className='profile'>
+            <NameBanner name={fname} />
+            <UserDetails user={userData} />
+          </div>
+        }
+      </>
+    )
+  } else {
+    <Loader />
+  }
+  
+}
+
+export default Profile;
+</file>
+
+<file path="client/src/components/profile/UserDetails.jsx">
+import React from 'react';
+import './profile.css';
+import PersonIcon from '@mui/icons-material/Person';
+import EmailIcon from '@mui/icons-material/Email';
+import PhoneIphoneIcon from '@mui/icons-material/PhoneIphone';
+
+const UserDetails = (props) => {
+  return (
+    <div className='user-details'>
+      <div className='user-detail'>
+        <PersonIcon className='icon' />
+        <h5>{props.user.name}</h5>
+      </div>
+      <div className='user-detail'>
+        <EmailIcon className='icon' />
+        <h5>{props.user.email}</h5>
+      </div>
+      <div className='user-detail'>
+        <PhoneIphoneIcon className='icon' />
+        <h5>{props.user.number}</h5>
+      </div>
+    </div>
+  )
+}
+
+export default UserDetails;
+</file>
+
+<file path="client/src/index.css">
+@import url(//db.onlinewebfonts.com/c/157c6cc36dd65b1b2adc9e7f3329c761?family=Amazon+Ember);
+
+body {
+  margin: 0 auto !important;
+  padding: 0 auto !important;
+  overflow-x: hidden !important;
+  font-family: 'Amazon Ember', sans-serif !important;
+}
+</file>
+
+<file path="client/src/index.js">
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import App from './App';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter } from 'react-router-dom';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>
+);
+</file>
+
+<file path="constant/productsData.js">
+const productsData = [
+  {
+    id: "1",
+    url: "images/products/1.jpg",
+    resUrl: "../images/products/1res.jpg",
+    price: "₹61,990.00",
+    value: "61,990",
+    accValue: "61990",
+    discount: "-46%",
+    mrp: "₹1,15,668.00",
+    name: "Lenovo ThinkBook 14 Intel Core i5 11th Gen 14 inch (35.56cm) FHD IPS Thin & Light Laptop (16GB RAM/512GB SSD/Windows 11 Home/MS Office 2021/FPR/Intel Iris Xe Graphics Mineral Grey/1.4 kg), 20VDA0TLIH",
+    points: [
+      "ThinkBook 14 Reliability tested on 12 MIL-STD-810H Methods and 22 Procedures | Body Material: Aluminium | Surface Treatment: Anodizing sandblasting | Built to withstand rugged usage and can handle accidental knocks, drops, and even spills",
+      "Processor: 11th Gen Intel Core i5-1135G7, 2.4 Ghz base clock, 4.2 Ghz max boost clock, 4 Cores, 8 MB Cache | Memory: 16GB (8GB soldered + 8GB SO-DIMM) RAM DDR4-3200 MHz upgradable upto 40 GB | Storage: 512GB SSD M.2",
+      "Operating System: Preloaded Windows 11 Home with Lifetime Validity | Pre-installed software: Microsoft Office Home & Student 2021",
+      "Display: 14-inch (35.56 cm) screen with (1920X1080) Full HD IPS 250 nits Antiglare display | Graphics: Integrated Intel Iris Xe Graphics comes with DirectX 12 enables amazing graphics | Monitor Support: Supports up to 4 independent displays",
+      "Ports: 2x USB 3.2 Gen 1 (1x Always On), 1x USB-C 3.2 Gen 2 (support data transfer, PD 3.0 and DP 1.4), 1x Thunderbolt 4 / USB4 40Gbps (support data transfer, PD 3.0 and DP 1.4), 1x HDMI 1.4b, 1x Card reader, 1x Ethernet (RJ-45), 1x Headphone / microphone combo jack (3.5mm)"
+    ]
+  },
+  {
+    id: "2",
+    url: "images/products/2.jpg",
+    resUrl: "../images/products/2res.jpg",
+    price: "₹39,499.00",
+    value: "39,499",
+    accValue: "39499",
+    discount: "-47%",
+    mrp: "₹74,999.00",
+    name: "Samsung Galaxy S20 FE 5G (Cloud Navy, 8GB RAM, 128GB Storage) with No Cost EMI & Additional Exchange Offers",
+    points: [
+      "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB internal memory expandable up to 1TB, Android 11.0 operating system and dual SIM",
+      "Triple Rear Camera Setup - 12MP (Dual Pixel) OIS F1.8 Wide Rear Camera + 8MP OIS Tele Camera + 12MP Ultra Wide | 30X Space Zoom, Single Take & Night Mode | 32MP F2.2 Front Punch Hole Camera",
+      "6.5-inch(16.40 centimeters) Infinity-O Super AMOLED Display with 120Hz Refresh rate, 1080 x 2400 (FHD+) Resolution",
+      "4500 mAh battery (Non -removable) with Super Fast Charging, FAst Wireless Charging & Finger Print sensor",
+      "IP68 Rated, MicroSD Card Slot (Expandable upto 1 TB), Dual Nano Sim, Hybrid Sim Slot, 5G+5G Dual stand by"
+    ]
+  },
+  {
+    id: "3",
+    url: "images/products/3.jpg",
+    price: "₹21,900.00",
+    name: "New Apple AirPods Pro with MagSafe Charging Case",
+    resUrl: "../images/products/3res.jpg",
+    value: "21,900",
+    accValue: "21900",
+    discount: "-12%",
+    mrp: "₹24,900.00",
+    points: [
+      "Active Noise Cancellation blocks outside noise, so you can immerse yourself in music",
+      "Transparency mode for hearing and interacting with the world around you",
+      "Spatial audio with dynamic head tracking places sound all around you",
+      "Adaptive EQ automatically tunes music to your ears",
+      "Three sizes of soft, tapered silicone tips for a customisable fit"
+    ]
+  },
+  {
+    id: "4",
+    url: "images/products/4.jpg",
+    price: "₹1,299.00",
+    name: "boAt Airdopes 121v2 True Wireless Earbuds with Upto 14 Hours Playback, Lightweight Earbuds, 8MM Drivers, LED Indicators and Multifunction Controls(Active Black)",
+    resUrl: "../images/products/4res.jpg",
+    value: "1,299",
+    accValue: "1299",
+    discount: "-57%",
+    mrp: "₹2,990.00",
+    points: [
+      "Playback- Airdopes 121v2 offers a nonstop playback of up to 3.5H with each charge and an additional 10.5H playtime with the included charging case",
+      "Lightweight- With a dual tone finish on a lightweight ergonomic design weighing just around 4g per earbud, get ready to groove in full flow with Airdopes 121v2v2 TWS earbuds",
+      "Drivers- It possesses powerful 8mm drivers that pump out immersive auditory experience all day long",
+      "Battery Indicator- Its carry cum charge case also has the battery LED indicator that shows the remaining power for the case",
+      "Controls- The true wireless earbuds offer easy access multifunction button controls with stereo calling feature for an overall seamless user experience."
+    ]
+  },
+  {
+    id: "5",
+    url: "images/products/5.jpg",
+    price: "₹999.00",
+    name: "Classic Mosquito Net for Double Bed, Embroidery, King Size, Polyester, Strong 30GSM, PVC Coated Steel (L200cm X W200cm X H145cm) Foldable for Double Bed - King Size, Blue",
+    resUrl: "../images/products/5res.jpg",
+    value: "999",
+    accValue: "999",
+    discount: "-50%",
+    mrp: "₹2,000.00",
+    points: [
+      "Size of Double bed is 200cm X 200cm X 145cm (i.e. 6.56ft X 6.56ft X 4.75ft) can Easily accommodate bed for King size, Super King size bed. Suitable for 2 Adults & 1 Child.",
+      "Easily Washable (steel wires are corrosion resistant), Self-Supporting, No Requirement to nail the wall.",
+      "Pops up in an Instant and Automatically, Can be folded in less than 30 Seconds.",
+      "Storage Bag Included at free of cost, comes with patches to cover the future accidental holes in the mosquito net, Provided with large Zipper gates on two Sides with inner and outer runner for easy and convenient Entry and Exit.",
+      "Easy to fold, Easy to carry, it offers a healthy environment to sleep in."
+    ]
+  },
+  {
+    id: "6",
+    url: "images/products/6.jpg",
+    price: "₹2,097.00",
+    name: "crocs Unisex-Adult Bayaband Clog",
+    resUrl: "../images/products/6res.jpg",
+    value: "2,097",
+    accValue: "2097",
+    discount: "-40%",
+    mrp: "₹3,495.00",
+    points: [
+      "Sole: Ethylene Vinyl Acetate",
+      "Sole: Ethylene Vinyl Acetate",
+      "Shoe Width: Regular",
+      "Outer Material: EVA. Washes off with soap and water",
+      "Closure Type: Slip On"
+    ]
+  },
+  {
+    id: "7",
+    url: "images/products/7.jpg",
+    price: "₹1,619.00",
+    name: "INDO ERA Women's Viscose Embroidered Straight Kurta Palazzo With Dupatta Set",
+    resUrl: "../images/products/7res.jpg",
+    value: "1,619",
+    accValue: "1619",
+    discount: "-60%",
+    mrp: "₹3,999.00",
+    points: [
+      "Care Instructions: Dry Clean Only",
+      "Fit Type: Regular",
+      "Print & Pattern : Solid ; Package Contant : Kurta, Palazzo With Dupatta",
+    ]
+  },
+  {
+    id: "8",
+    url: "images/products/8.jpg",
+    price: "₹2,884.00",
+    name: "QUBO Smart Cam 360 | 1080p Full HD Wi-Fi Camera | Trust of Hero Group | 360° Deg Coverage with Pan & Tilt | Intruder Alarm | Full Color in Low Light | Two Way Talk | Alexa & OK Google | Made in India",
+    resUrl: "../images/products/8res.jpg",
+    value: "2,884",
+    accValue: "2884",
+    discount: "-28%",
+    mrp: "₹3,990.00",
+    points: [
+      "PROUDLY INDIAN: Qubo Smart Cam 360 is Designed & Made in INDIA. Engineered for the Security Needs of the Indian Market.",
+      "TRUST OF HERO GROUP: Our Round-the-Clock Customer Service & Wide field Network not only resolves your all concerns & queries but rather ensures complete peace of mind for Lifetime.",
+      "360 COVERAGE: Multi-Directional rotation of the lens ensures that there are no blind spots. NOTE: Qubo Smart Cam 360 is designed to be used indoors only.",
+      "THEFT PROOF CLOUD STORAGE: Secure all your recordings on cloud storage based in India. Your private home moments stay with you even if the device is stolen.",
+      "PERSON DETECTION WITH INTRUDER ALARM : Advanced AI capabilities that can smartly detect & notify whenever a person is detected. You can also ring an automatic loud siren in case of an intrusion."
+    ]
+  },
+  {
+    id: "9",
+    url: "images/products/9.jpg",
+    price: "₹1,299.00",
+    name: "TIMEX Analog Men's Watch",
+    resUrl: "../images/products/9res.jpg",
+    value: "1,299",
+    accValue: "1299",
+    discount: "-19%",
+    mrp: "₹1,595.00",
+    points: [
+      "Case Shape: Round, Dial Glass Material: Mineral, Band material: Leather",
+      "Watch Movement Type: Quartz, Watch Display Type: Analog",
+      "Case Material: Brass, Case Diameter: 40 millimeters, Brass Bezel ; Case Thickness: 8.8mm",
+      "Water Resistance Depth: 30 meters, Buckle Clasp",
+      "Ideal for birthday, anniversary and wedding gift"
+    ]
+  },
+  {
+    id: "10",
+    url: "images/products/10.jpg",
+    price: "₹429.00",
+    name: "Yogabar Dark Chocolate & Cranberry Muesli 700g - Breakfast Cereal with 83% Nuts & Seeds, Dried Fruits, & Whole Grains - Vegan & Gluten Free Snack",
+    resUrl: "../images/products/10res.jpg",
+    value: "429",
+    accValue: "429",
+    discount: "-14%",
+    mrp: "₹499.00",
+    points: [
+      "Whole grains: Quinoa, Oats and Brown Rice",
+      "Made from 100% natural ingredients",
+      "Rich in nuts and dried fruits: almonds, raisins, dried cranberries rich in seeds: pumpkin, chia and flax",
+      "Antioxidant rich dark chocolate + cranberry",
+      "Slow-roasted, slow ground in small batches for superior flavour"
+    ]
+  },
+  {
+    id: "11",
+    url: "images/products/11.jpg",
+    price: "₹358.00",
+    name: "Integriti Men Sweatshirt",
+    resUrl: "../images/products/11res.jpg",
+    value: "358",
+    accValue: "358",
+    discount: "-86%",
+    mrp: "₹2,499.00",
+    points: [
+      "Care Instructions: Machine Wash",
+      "Fit Type: Modern",
+      "Hooded,Long Sleeve,Print",
+      "Sweatshirt",
+      "Package Dimensions: 10.7 L x 39.6 H x 38.0 W (centimeters)"
+    ]
+  },
+  {
+    id: "12",
+    url: "images/products/12.jpg",
+    price: "₹630.00",
+    name: "Harpa Synthetic a-line Dress (GR5759_Navy_Small)",
+    resUrl: "../images/products/12res.jpg",
+    value: "630",
+    accValue: "630",
+    discount: "-70%",
+    mrp: "₹2,099.00",
+    points: [
+      "Care Instructions: Hand Wash Only",
+      "Color name: pink",
+      "100% Polyester",
+      "Hand wash; A-line",
+      "Sleeveless"
+    ]
+  },
+  {
+    id: "13",
+    url: "images/products/13.jpg",
+    price: "₹3,999.00",
+    name: "boAt Stone 1200 14W Bluetooth Speaker with Upto 9 Hours Battery, RGB LEDs, IPX7 and TWS Feature(Blue)",
+    resUrl: "../images/products/13res.jpg",
+    value: "3,999",
+    accValue: "3999",
+    discount: "-43%",
+    mrp: "₹6,990.00",
+    points: [
+      "It delivers a powerful 14W stereo sound for a complete immersive experience.",
+      "Stone 1200 provides a battery time of upto 9 hours without its RGB LEDs and upto 7 hours with it(@60% volume) with a charging time of 4 hours.",
+      "Carry your splashproof speakers to anywhere with IPX7 splash & water shield leaving behind the tension of water running over",
+      "Add a second speaker with our TWS technology and enjoy sound, twice as powerful, Battery Capacity (mAh) - 3600 mAh, Playback Time - 9 hours, Charging Time - 4 hours, Standby Time 360 hours",
+      "Its 360-degree ergonomic design makes it ideal to be carried around anywhere you go. It also comes with a carry strap making it very convenient for you to carry it around."
+    ]
+  },
+  {
+    id: "14",
+    price: "₹699.00",
+    value: "699",
+    accValue: "699",
+    discount: "-53%",
+    mrp: "₹1,499",
+    url: "images/products/14.jpg",
+    resUrl: "../images/products/14res.jpg",
+    name: "Interiocrafts Cast Iron Degchi Style Dhoop and Tealight Candle Holder",
+    points: [
+      "✔ It can be used as a dhoop dani with the lid on and candle holder with votive stand. A perfect item for your pooja mandir.",
+      "✔ The chic functionality of this beautiful votive candle and dhoop holder is inimitable.",
+      "✔ Rajasthan is famous for its handicrafts and the creativity of the artists can clearly be seen with use of artifacts.",
+      "✔ It will not get heated up while use;It is easy to hold for doing 'Dhuni' in your entire house.",
+      "✔ It can be used for inserting loban, bakhoor, samarni dhoop incense sticks",
+    ]
+  },
+  {
+    id: "15",
+    price: "₹499.00",
+    url: "images/products/15.jpg",
+    name: "Urban Born Cast Iron Metal Flower vase for Home Decor and Living Room Vintage Antique Decor (Gold, 15 x 15 x 15 cm)",
+    resUrl: "../images/products/15res.jpg",
+    value: "499",
+    accValue: "499",
+    discount: "-50%",
+    mrp: "₹1,000.00",
+    points: [
+      "This flower vase is made from one Piece of Iron with unique Decorative design.",
+      "Item size : HXW : 15 x 15 cm / Finish- Gold",
+      "Package contains -1pc Flower vase without Flowers.Good-quality and stylish products.Flowers are for illustration purpose not with Vase.",
+      "This flower vase is made from one Piece of Iron with unique Decorative design.",
+      "Great for gifting purposes in Diwali, Birthday, Anniversary, Corporate party etc."
+    ]
+  },
+  {
+    id: "16",
+    price: "₹999.00",
+    url: "images/products/16.jpg",
+    name: "Livpure Smart Solid Window Polyester 5 feet Curtains with tieback( Beige ) Set",
+    resUrl: "../images/products/16res.jpg",
+    value: "999",
+    accValue: "999",
+    discount: "-33%",
+    mrp: "₹1,499.00",
+    points: [
+      "Color: Beige Size: 5 Feet Material: Polyester Package Contents: 2 Window Curtains Attached tiebacks: Yes (Velcro) Window Curtain Dimensions: 152.4 x 132 CM. | 60 x 52 INCH",
+      "Blackout: Blocks 95% sunlight from passing through the curtains Noise reduction: Blocks most of the street noise & keeps the inside undisturbed UV protection: Blocks UV rays from sunlight to pass through into your home Temperature insulation: Blocks heat transfer and helps in maintaining the AC efficiency",
+      "Unique 3-Weave Technology: Livpure curtains are made using Triple Weave Technology with three layers of fabric strongly interwoven to ensure effective blackout, protection from the UV rays and insulate your home",
+      "Hanging Style: These curtains are easy to install and come with high quality eyelet rings Eyelet Rings: Detachable with 1.5 in inner diameter for the curtain to fit nicely Wash Care: Hands & Machine washable after removing the eyelets, Do not bleed color",
+      "Product color may slightly vary due to photographic lighting sources or your monitor settings"
+    ]
+  },
+  {
+    id: "17",
+    price: "₹399.00",
+    url: "images/products/17.jpg",
+    name: "VMPS | Door mats Anti Skid for Home, 40x60 cm Pack of 1 ( Grey ) - Water Absorbent Rugs",
+    resUrl: "../images/products/17res.jpg",
+    value: "399",
+    accValue: "399",
+    discount: "-60%",
+    mrp: "₹999.00",
+    points: [
+      "Super Absorbent Doormat: Made of 55% cotton + 45% microfiber, the magic clean mat can easily scrap off mud, dirt, dust, grit, snow, slush, sleet and grass from shoes instantly.",
+      "Non-slip: the non-slip bathroom mat for home is backed with tp rubber to prevent shifting and skidding. Caution : place rug on clean dry smooth floor only. Water under rug can cause it to slip. Keep bottom of rug dry. This is same with all the bath rugs across all the brands globally",
+      "Ultra absorbent: the microfiber washroom door mat is much more absorbent than normal bathmats. High-pile helps save your floors from dripping water while you€re stepping out of the bath, shower, or getting ready by the sink. Moisture is trapped in the mats deep pile, allowing the rug to dry quickly and cleanly",
+      "Size of Doormats is 16 X 24 inches or 40 X 60 cm or 1.5 ft X 2 ft, ideal for size of your Indoor Entrances, Weight of Single Piece is around 500 Grams",
+      "A high quality Microfiber doormats with heat resistance and non-irritating odour"
+    ]
+  },
+  {
+    id: "18",
+    price: "₹699.00",
+    url: "images/products/18.jpg",
+    name: "Trending Home Collection Cushion Cover with Booti Zari Embroidered Stitched Zippered Cotton Velvet Cushion Cover | 16X16 Inches | Set of 2| (Yellow)",
+    resUrl: "../images/products/18res.jpg",
+    value: "699",
+    accValue: "699",
+    discount: "-42%",
+    mrp: "₹1,199.00",
+    points: [
+      "Size: 16 X 16 inches/ 40 cm x 40 cm . Only Booti Zari embroidered velvet cushion cover, FILLER ARE NOT INCLUDED. Square pillowcase is suitable for home decor, couch, sofa, chair, bed, car, party, hotel, office, cafe décor ,diwali gift , xmas , christmas , new year , balcony , 2021",
+      "Fabric Material: The cushion cover is made of Azo free dye with environment friendly ZARI embroidered export quality cotton velvet fabric . The fabric is sturdy durable, not easily breaking or tearing. The Interlocking technique use inside helps to maintain the strength of cover",
+      "Decoration -All the cushion cover are made by exclusive color and design.You can also use as a gift pack as it comes in beautiful packaging.",
+      "Care Instruction -Dry clean only,No Bleach,No Tumble Dry,Iron at Back Side",
+      "Made in India"
+    ]
+  },
+  {
+    id: "19",
+    price: "₹1,399.00",
+    url: "images/products/19.jpg",
+    name: "NEW LEAF 220 GSM All-Season Printed Super Soft Light Weight Cotton Comforter Set with 1 Bedsheet 2 Pillow Covers (Double, Blue, Orange) -4 Pieces",
+    resUrl: "../images/products/19res.jpg",
+    value: "1,399",
+    accValue: "1399",
+    discount: "-72%",
+    mrp: "₹4,999.00",
+    points: [
+      "The king size quilt set includes - 1pc Bedsheet 1 quilt (100 inch x 90 inch), 2pcs cover ( 18 inch x 28 inch)",
+      "New Embroidered artwork makes the quilts much more durable and lightweight rather than the traditional stitching technique.",
+      "The cover and filling are made of 100% Microfiber.",
+      "The geometric classic pattern is easy to match your bedroom decor, offering you an elegant and classic feeling.",
+      "Machine wash cold, gentle cycle, only non-chlorine bleach when needed, tumble dry low, steam if needed, do not iron. No shrinkage, No colour fading and No unravelling after washing."
+    ]
+  },
+  {
+    id: "20",
+    price: "₹329.00",
+    url: "images/products/20.jpg",
+    name: "Kaameri Bazaar Bronze Color Metal Bird cage Tea Light Holder with Butter Pot tealight Glass for Home Décor",
+    resUrl: "../images/products/20res.jpg",
+    value: "329",
+    accValue: "329",
+    discount: "-63%",
+    mrp: "₹899.00",
+    points: [
+      "This Diwali Light Your home with this beautiful Bird Cage Tealight Holder",
+      "This stunning Kaameri Bazaar Tealight Holder makes for a perfect addition to your home.",
+      "BENEFITS: They can accent your home or office for the right decor. Perfect for adding a decorative touch to any room's decor",
+      "Made from high quality material, Durable and Long lasting",
+      "Ideal For: Decoration, Gifting, Diwali Decoration, Christmas Party Decoration, Home Decor, Candle Light Dinner"
+    ]
+  },
+  {
+    id: "21",
+    price: "₹549.00",
+    url: "images/products/21.jpg",
+    name: "The Vintage Artefacts Donut White, Ceramic Pot and vase Handcrafted, Round Shaped (vase)",
+    resUrl: "../images/products/21res.jpg",
+    value: "549",
+    accValue: "549",
+    discount: "-63%",
+    mrp: "₹1,499.00",
+    points: [
+      "This Diwali Light Your home with this beautiful Bird Cage Tealight Holder",
+      "This stunning Kaameri Bazaar Tealight Holder makes for a perfect addition to your home.",
+      "BENEFITS: They can accent your home or office for the right decor. Perfect for adding a decorative touch to any room's decor",
+      "Made from high quality material, Durable and Long lasting",
+      "Ideal For: Decoration, Gifting, Diwali Decoration, Christmas Party Decoration, Home Decor, Candle Light Dinner"
+    ]
+  },
+  {
+    id: "22",
+    price: "₹1,499.00",
+    url: "images/products/22.jpg",
+    name: "JH Gallery Handcrafted and Emboss Painted Colorful Wood Elephant Shape Garden Table (8 Inches Height, Red)",
+    resUrl: "../images/products/22res.jpg",
+    value: "1,499",
+    accValue: "1499",
+    discount: "-44%",
+    mrp: "₹1,499.00",
+    points: [
+      "JH Gallery Presents Hand crafted Or Hand Painted decorative wooden small Elephant Stool Multicolored which widely used in worldwide to decor balcony, office stool, living room, side table. It is traditional item made up of mango wood and MDF also.",
+      "Package Content -One Wooden Elephant Statue Table Cum Stool/Handcrafted with Artistic Painting",
+      "Perfect For Decor as Table It's very suitable for gifting as it comes in best packaging as well. Perfect for using end table nightstand, kids step stool, night stand, keeping your planters, as a stand",
+      "Care Instruction : table away from warmth , heat and sunshine. Use dry/wet cotton cloth to remove dirt.",
+      "100% Handmade :- Handmade by recognized Artisans from JH Gallery Rajasthan, product created under Make in INDIA"
+    ]
+  }
+]
+
+module.exports = productsData;
+</file>
+
+<file path="database/connection.js">
+// Libraries
+const mongoose = require('mongoose');
+const db_url = process.env.DB_URL;
+
+// Database Connection
+mongoose.connect(db_url, function(error) {
+  if (error) {
+    console.log(error);
+  } else {
+    console.log("Database Connected Successfully");
+  }
+})
+</file>
+
+<file path="defaultData.js">
+const Product = require('./models/Product');
+const productsData = require('./constant/productsData');
+
+async function defaultData() {
+  try {
+    // Deleting all entries in the DB
+    await Product.deleteMany({});
+    // Inserting all entries from productsData in the DB
+    await Product.insertMany(productsData);
+    console.log("Data entered in Database");
+  } catch (error) {
+    console.log(error);
+  }
+};
+
+module.exports = defaultData;
+</file>
+
+<file path="index.js">
+// Libraries
+require('dotenv').config();
+const express = require('express');
+const cors = require('cors');
+const morgan = require('morgan');
+const bodyParser = require('body-parser');
+const cookieParser = require('cookie-parser');
+const port = process.env.PORT || 8000;
+var path = require('path');
+
+const app = express();
+
+// Database connection
+require('./database/connection');
+
+// Product Model
+const Product = require('./models/Product');
+
+// Routes
+const router = require('./routes/router');
+
+// Middleware
+app.use(morgan('dev'));
+app.use(express.json());
+app.use(cookieParser(""));
+app.use(cors({credentials: true, origin: 'http://localhost:3000'}));
+app.use('/api', router);
+
+// For deployment
+if (process.env.NODE_ENV === 'production') {
+  app.use(express.static('client/build'));
+  app.get("*", (req, res) => {
+    res.sendFile(path.resolve(__dirname,  "client/build", "index.html"));
+  });
+}
+
+// Server
+app.listen(port, function() {
+  console.log("Server started at port " + port);
+})
+
+// ===== To store data from productsData.js =====
+const defaultData = require('./defaultData');
+defaultData();
+</file>
+
+<file path="middleware/authenticate.js">
+const jwt = require('jsonwebtoken');
+const User = require('../models/User');
+const secretKey = process.env.SECRET_KEY;
+
+const authenticate = async function(req, res, next) {
+  try {
+    const token = await req.cookies.AmazonClone;
+    // console.log(token);
+    const verifyToken = await jwt.verify(token, secretKey);
+    // console.log(verifyToken);
+
+    const rootUser = await User.findOne({ _id: verifyToken._id });
+    // console.log(rootUser);
+
+    if (!rootUser) {
+      throw new Error("User not found");
+    }
+
+    req.token = token;
+    req.rootUser = rootUser;
+    req.userId = rootUser._id;
+
+    next();
+
+  } catch (error) {
+    res.status(400).json({
+      status: false,
+      message: "No token provided",
+      error: error
+    })
+  }
+} 
+
+module.exports = authenticate;
+</file>
+
+<file path="models/Product.js">
+// Libraries
+const mongoose = require('mongoose');
+
+const productSchema = new mongoose.Schema({
+  id: Number,
+  url: String,
+  resUrl: String,
+  price: String,
+  value: String,
+  accValue: Number,
+  discount: String,
+  mrp: String,
+  name: String,
+  points: [{
+    type: String
+  }]
+});
+
+const Product = new mongoose.model("products", productSchema);
+
+module.exports = Product;
+</file>
+
+<file path="models/User.js">
+// Libraries
+const mongoose = require('mongoose');
+const jwt = require('jsonwebtoken');
+const Product = require('./Product');
+
+const userSchema = new mongoose.Schema({
+  name: {
+    type: String,
+    required: true
+  },
+  number: {
+    type: String,
+    required: true
+  },
+  email: {
+    type: String,
+    required: true
+  },
+  password: {
+    type: String,
+    required: true
+  },
+  confirmPassword: {
+    type: String
+  },
+  tokens: [
+    {
+      token: {
+        type: String,
+        required: true
+      }
+    }
+  ],
+  cart: [
+    {
+      id: Number,
+      cartItem: {},
+      qty: Number
+    }
+  ],
+  orders: [
+    {}
+  ]
+  
+});
+
+// Token generation
+const secretKey = process.env.SECRET_KEY;
+userSchema.methods.generateAuthToken = async function() {
+  try {
+    const token = jwt.sign({ _id: this._id }, secretKey);
+    this.tokens = this.tokens.concat({token: token});
+    await this.save();
+    return token;
+  } catch (error) {
+    console.log(error);
+  }
+}
+
+// Add to cart
+userSchema.methods.addToCart = async function(id, productInfo) {
+  try {
+    this.cart = this.cart.concat({ id: id, cartItem: productInfo, qty: 1 });
+    await this.save();
+  } catch (error) {
+    console.log(error);
+  }
+}
+
+// Orders
+userSchema.methods.addOrder = async function(orderInfo) {
+  try {
+    this.orders = this.orders.concat({ orderInfo });
+    this.cart = [];
+    await this.save();
+  } catch (error) {
+    console.log(error);
+  }
+}
+
+// Model
+const User = mongoose.model("users", userSchema);
+
+// Export model
+module.exports = User;
+</file>
+
+<file path="package.json">
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Amazon clone Rest API using MongoDB and Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "heroku-postbuild": "cd client && npm install && npm run build"
+  },
+  "keywords": [
+    "mongo",
+    "express",
+    "rest",
+    "api"
+  ],
+  "author": "Sushant Patial",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.17.3",
+    "express-validator": "^6.14.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.3",
+    "mongoose": "^6.3.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.4",
+    "razorpay": "^2.8.1",
+    "validator": "^13.7.0"
+  }
+}
+</file>
+
+<file path="README.md">
+# <div align="center">Amazon Clone</div>
+
+### <div align="center">A fully functional E-commerce website</div><br>
+
+This is a clone of the well-known e-commerce website Amazon. Customers can browse products and make purchases. It offers a sign in/sign up feature that keeps track of the user's cart and purchases. It was built with React on the frontend, Node and Express on the backend, MongoDB for data storage, and Razorpay for payment integration.
+
+## Features 📃
+<ul>
+  <li>User Sign up / Sign in</li>
+  <li>Logout from your account</li>
+  <li>Browse and search products</li>
+  <li>Check profile and order history</li>
+  <li>Cart:</li>
+  <ul>
+    <li>Add multiple products</li>
+    <li>Update products</li>
+    <li>Remove products</li>
+  </ul>
+  <li>Buy a product immediately</li>
+  <li>Payment with multiple options</li>
+</ul>
+
+## Technology Used 💻
+<ul>
+  <li><strong>IDE:</strong> Visual Studio Code</li>
+  <li><strong>Frontend:</strong> React.js</li>
+  <li><strong>Backend:</strong> Express.js</li>
+  <li><strong>Database:</strong> MongoDB</li>
+  <li><strong>Runtime Environment:</strong> Node.js</li>
+  <li><strong>HTTP Client:</strong> Axios</li>
+  <li><strong>Version Control:</strong> Git</li>
+  <li><strong>Payment Integration:</strong> Razorpay</li>
+</ul>
+</file>
+
+<file path="routes/router.js">
+// Libraries
+const router = require('express').Router();
+const Product = require('../models/Product');
+const User = require('../models/User');
+const Razorpay = require('razorpay');
+const bcrypt = require('bcryptjs');
+const authenticate = require('../middleware/authenticate');
+const { check, validationResult } = require('express-validator');
+
+// Get products API
+router.get("/products", async function(req, res) {
+  try {
+    // Fetching data from database
+    const productsData = await Product.find();
+    res.status(200).json(productsData);
+  } catch (error) {
+    console.log(error);
+  }
+})
+
+// Get individual data
+router.get("/product/:id", async function(req, res) {
+  try {
+    const {id} = req.params;
+    const individualData = await Product.findOne({ id: id });
+    res.status(200).json(individualData);
+  } catch (error) {
+    console.log(error);
+  }
+})
+
+// Post register data
+router.post('/register', [
+    // Check Validation of Fields
+    check('name').not().isEmpty().withMessage("Name can't be empty")
+                      .trim().escape(),
+
+    check('number').not().isEmpty().withMessage("Number can't be empty")
+                      .isNumeric().withMessage("Number must only consist of digits")
+                      .isLength({max: 10, min: 10}).withMessage('Number must consist of 10 digits'),
+
+    check('password').not().isEmpty().withMessage("Password can't be empty")
+                      .isLength({min: 6}).withMessage("Password must be at least 6 characters long")
+                      .matches(/\d/).withMessage("Password must contain a number")
+                      .isAlphanumeric().withMessage("Password can only contain alphabets and numbers"),
+
+    check('confirmPassword').not().isEmpty().withMessage("Confirm Password can't be empty"),
+
+    check('email').not().isEmpty().withMessage("Email can't be empty")
+                      .isEmail().withMessage("Email format is invalid")
+                      .normalizeEmail()
+
+  ], async function(req, res) {
+
+    const errors = validationResult(req);
+
+    if (!errors.isEmpty()) {
+      return res.status(400).json({
+        "status": false,
+        "message": errors.array()
+      });
+    } else {
+      const { name, number, email, password, confirmPassword } = req.body;
+      const errors = [];
+
+      // Check Duplicate Emails
+      User.findOne({ email: email }, function (err, duplicateEmail) {
+        if (err) {
+          console.log(err);
+        } else {
+          if (duplicateEmail) {
+            errors.push({msg: "Email already registered"});
+            return res.status(400).json({
+              "status": false,
+              "message": errors
+            })
+          } else {
+            // Check Duplicate Numbers
+            User.findOne({ number: number }, async function (err, duplicateNumber) {
+              if (err) {
+                console.log(err);
+              } else {
+                if (duplicateNumber) {
+                  errors.push({msg: "Number already registered"});
+                  return res.status(400).json({
+                    "status": false,
+                    "message": errors
+                  })
+                } else {
+                  // Check if Passwords Match
+                  if (password != confirmPassword) {
+                    errors.push({msg: "Passwords don't match"})
+                    return res.status(400).json({
+                      "status": false,
+                      "message": errors
+                    })
+                  } else {
+                    // Hashing the password
+                    const saltRounds = 10;
+                    const salt = await bcrypt.genSalt(saltRounds);
+                    const hashedPassword = await bcrypt.hash(password, salt);
+
+                    const newUser = new User({
+                      name: name,
+                      number: number,
+                      email: email,
+                      password: hashedPassword
+                    })
+        
+                    const savedUser = await newUser.save();
+        
+                    res.status(201).json(savedUser);
+                  }
+                }
+              }
+            })
+          }
+        }
+      })
+    }
+})
+
+// Post registered data / login 
+router.post('/login', [
+    // Check fields validation
+    check('email').not().isEmpty().withMessage("Email can't be empty")
+                    .isEmail().withMessage("Email format invalid")
+                    .normalizeEmail(),
+    
+    check('password').not().isEmpty().withMessage("Password can't be empty")
+                    .isLength({min: 6}).withMessage("Password must be at least 6 characters long")
+                    .matches(/\d/).withMessage("Password must contain a number")
+                    .isAlphanumeric().withMessage("Password can only contain alphabets and numbers")
+
+  ], async function(req, res) {
+    const errors = validationResult(req);
+
+    if (!errors.isEmpty()) {
+      return res.status(400).json({
+        "status": false,
+        "message": errors.array()
+      })
+    } else {
+      const { email, password } = req.body;
+      const errors = [];
+
+      // Check if email exists
+      User.findOne({ email: email }, async function(err, found) {
+        if (err) {
+          console.log(err);
+        } else {
+          if (!found) {
+            errors.push({msg: "Incorrect Email or Password"});
+            return res.status(400).json({
+              "status": false,
+              "message": errors
+            })
+          } else {
+            // Comparing the password
+            bcrypt.compare(password, found.password, async function(err, result) {
+              if(result) {
+
+                // Token generation
+                const token = await found.generateAuthToken();
+
+                // Cookie generation
+                res.cookie("AmazonClone", token, {
+                  expires: new Date(Date.now() + 3600000), // 60 Mins
+                  httpOnly: true
+                });
+
+                return res.status(201).json({
+                  "status": true,
+                  "message": "Logged in successfully!"
+                })
+              } else {
+                errors.push({msg: "Incorrect Email or Password"});
+                return res.status(400).json({
+                  "status": false,
+                  "message": errors
+                })
+              }
+            });
+
+          }
+        }
+      })
+    }
+  })
+
+// Adding items to cart
+router.post('/addtocart/:id', authenticate, async function(req, res) {
+  try {
+    const {id} = req.params; // Getting id from url parameters 
+    const productInfo = await Product.findOne({ id: id });
+    // console.log(productInfo);
+
+    const userInfo = await User.findOne({ _id: req.userId }); // req.UserId from authenticate.js
+    // console.log(userInfo);
+
+    if (userInfo) {
+      let flag = true;
+
+      for (let i = 0; i < userInfo.cart.length; i++) {
+        // Incrementing qty by one if product already exists in cart
+        if (userInfo.cart[i].id == id) {
+          const test = await User.updateOne({ 'cart.id': id }, {
+            $inc: {
+              'cart.$.qty': 1 
+            }
+          });
+          console.log(test);
+          flag = false;
+        }
+      }
+
+      if (flag) { // flag = true means the product is not in the cart
+        await userInfo.addToCart(id, productInfo); // Adding new product into cart
+      }
+
+      // const cartData = await userInfo.addToCart(id, productInfo);
+      // await userInfo.save();
+      // console.log(cartData);
+      res.status(201).json({
+        status: true,
+        message: userInfo
+      })
+    } else {
+      res.status(400).json({
+        status: false,
+        message: "Invalid User"
+      })
+    }
+
+  } catch (error) {
+    console.log(error);
+  }
+})
+
+// Delete items from cart
+router.delete("/delete/:id", authenticate, async function(req, res) {
+  try {
+    const {id} = req.params;
+    const userData = await User.findOne({ _id: req.userId });
+
+    userData.cart = userData.cart.filter(function(cartItem) {
+      return cartItem.id != id;
+    })
+
+    await userData.save();
+
+    res.status(201).json({
+      status: true,
+      message: "Item deleted successfully"
+    })
+
+    console.log(userData);
+
+  } catch (error) {
+    res.status(400).json({
+      status: false,
+      message: error
+    })
+  }
+})
+
+// Logout 
+router.get("/logout", authenticate, async function(req, res) {
+  try {
+
+    // Deleting current token on logout from database
+    req.rootUser.tokens = req.rootUser.tokens.filter(function(currentToken) {
+      return currentToken.token !== req.token
+    })
+
+    // Cookie expiration
+    await res.cookie("AmazonClone", {
+      expires: Date.now()
+    });
+
+    req.rootUser.save();
+
+    return res.status(201).json({
+      "status": true,
+      "message": "Logged out successfully!"
+    })
+  } catch (error) {
+    res.status(400).json({
+      "status": false,
+      "message": error
+    })
+  }
+})
+
+// Verify if user is logged in
+router.get('/getAuthUser', authenticate, async function(req, res) {
+  const userData = await User.findOne({ _id: req.userId });
+  res.send(userData);
+});
+
+// Razorpay 
+router.get("/get-razorpay-key", function(req, res) {
+  res.send({ key: process.env.RAZORPAY_KEY_ID })
+})
+
+router.post("/create-order", authenticate, async function(req, res) {
+  try {
+    const razorpay = new Razorpay({
+      key_id: process.env.RAZORPAY_KEY_ID,
+      key_secret: process.env.RAZORPAY_SECRET
+    })
+    const options = {
+      amount: req.body.amount,
+      currency: 'INR'
+    }
+    const order = await razorpay.orders.create(options);
+
+    res.status(200).json({
+      order: order
+    });
+
+  } catch (error) {
+    res.status(400).json(error);
+  }
+})
+
+router.post("/pay-order", authenticate, async function(req, res) {
+  try {
+
+    const userInfo = await User.findOne({ _id: req.userId }); // req.UserId from authenticate.js
+    
+    const { amount, razorpayPaymentId, razorpayOrderId, razorpaySignature, orderedProducts, dateOrdered } = req.body;
+    const newOrder = ({
+      products: orderedProducts,
+      date: dateOrdered,
+      isPaid: true,
+      amount: amount,
+      razorpay: {
+        orderId: razorpayOrderId,
+        paymentId: razorpayPaymentId,
+        signature: razorpaySignature
+      }
+    })
+
+    // Saving order model into user model
+    if (userInfo) {
+      await userInfo.addOrder(newOrder);
+    } else {
+      res.status(400).json("Invalid user");
+    }
+
+    res.status(200).json({
+      message: "Payment was successful"
+    })
+  } catch(error) {
+    res.status(400).json(error);
+  }
+})
+
+module.exports = router;
+</file>
+
+</files>
